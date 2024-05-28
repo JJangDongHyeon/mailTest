@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.green.projectTest.user.UserMapper">
+
+    <insert id="postUser"
+            useGeneratedKeys="true"
+            keyProperty="userId">
+        INSERT INTO user
+        SET uid = #{uid},
+        upw = #{upw},
+        nickname  = #{nickname},
+        profile_pic = #{profilePic},
+        email = #{email}
+    </insert>
+
+
+    <select id="getUserById">
+        SELECT user_id AS userId, email, upw, nickname, sign_up_date AS signUpDate, profile_update AS profileUpdate
+        FROM user
+        WHERE email = #{email}
+    </select>
+
+
+</mapper>
