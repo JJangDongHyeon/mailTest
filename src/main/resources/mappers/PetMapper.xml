@@ -1,0 +1,47 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.green.projectTest.pet.PetMapper">
+    <insert id="postPet" keyProperty="petId" useGeneratedKeys="true">
+        INSERT INTO pet
+        SET user_id = #{userId},
+            pet_name = #{petName},
+            pet_category = #{petCategory},
+            pet_image = #{petImage},
+            pet_icon = #{petIcon},
+            pet_back_color = #{petBackColor}
+    </insert>
+
+    <select id="getPetNameList">
+        SELECT  pet_id AS petId,
+                pet_name AS petName
+        FROM pet
+        WHERE user_id = #{userId}
+    </select>
+
+    <delete id="delPet">
+        DELETE FROM pet
+        WHERE pet_id = #{petId};
+    </delete>
+
+    <update id="putPet">
+        UPDATE  pet
+        <set>
+            <if test=" petName != null and petName != '' ">
+            pet_name = #{petName},
+            </if>
+            <if test=" petCategory != null and petCategory != '' ">
+            pet_category = #{petCategory},
+            </if>
+            <if test=" petImage != null and petImage != '' ">
+            pet_image = #{petImage},
+            </if>
+            <if test=" petIcon != null and petIcon != '' ">
+            pet_icon = #{petIcon},
+            </if>
+            <if test=" petBackColor != null and petBackColor != '' ">
+            pet_back_color = #{petBackColor},
+            </if>
+        </set>
+        WHERE pet_id = #{petId};
+    </update>
+</mapper>

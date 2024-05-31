@@ -6,16 +6,15 @@
             useGeneratedKeys="true"
             keyProperty="userId">
         INSERT INTO user
-        SET uid = #{uid},
+        SET email = #{email},
         upw = #{upw},
-        nickname  = #{nickname},
-        profile_pic = #{profilePic},
-        email = #{email}
+        nickname  = #{nickname}
+
     </insert>
 
 
     <select id="getUserById">
-        SELECT user_id AS userId, email, upw, nickname, sign_up_date AS signUpDate, profile_update AS profileUpdate
+        SELECT user_id AS userId, email, upw, nickname, created_at AS createdAt, profile_update AS profileUpdate
         FROM user
         WHERE email = #{email}
     </select>

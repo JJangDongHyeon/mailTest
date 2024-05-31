@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="UTF-8" ?>
+<!DOCTYPE mapper PUBLIC "-//mybatis.org//DTD Mapper 3.0//EN" "https://mybatis.org/dtd/mybatis-3-mapper.dtd">
+<mapper namespace="com.green.projectTest.todolist.TodoListMapper">
+
+    <insert id="postTodoList" useGeneratedKeys="true" keyProperty="listId">
+        INSERT INTO todolist
+        SET  content = #{content},
+             user_id = #{userId}
+    </insert>
+
+    <select id="getTodoList">
+        SELECT A.list_id AS listId, A.content, A.is_completed AS isCompleted, A.created_at AS createdAt
+        FROM todolist A
+        JOIN user B
+        ON A.user_id = B.user_id
+        WHERE A.user_id = #{userId}
+        ORDER BY A.list_id
+    </select>
+
+    <delete id="delTodoList">
+        DELETE FROM todolist
+        WHERE list_id = #{listId};
+    </delete>
+
+    <select id="SelIsCompleted">
+        SELECT is_completed AS isCompleted
+        FROM todolist
+        WHERE list_id = #{listId}
+    </select>
+    
+    <update id="putInsIsCompleted">
+        UPDATE  todolist
+        SET  is_completed = 1
+        WHERE list_id = #{listId}
+    </update>
+
+    <update id="putDelIsCompleted">
+        UPDATE  todolist
+        SET  is_completed = 0
+        WHERE list_id = #{listId}
+    </update>
+
+    <update id="putTodoList">
+        UPDATE  todolist
+        <set>
+            <if test=" content != null and content != '' ">
+            content = #{content}
+            </if>
+        </set>
+        WHERE list_id = #{listId}
+    </update>
+</mapper>

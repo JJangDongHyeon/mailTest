@@ -10,6 +10,7 @@ public class UserPostReq {
     private String email;
     private String upw;
     private String nickname;
+    private String authNum;
 
     @JsonIgnore
     private String profilePic;

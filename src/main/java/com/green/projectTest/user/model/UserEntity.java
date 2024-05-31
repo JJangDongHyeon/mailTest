@@ -10,6 +10,6 @@ public class UserEntity {
     private String email;
     private String upw;
     private String nickname;
-    private String signUpDate;
+    private String createdAt;
     private String profileUpdate;
 }

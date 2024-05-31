@@ -1,6 +1,7 @@
 package com.green.projectTest.email.model;
 
 import jakarta.validation.constraints.Email;
+import jakarta.validation.constraints.NotBlank;
 import jakarta.validation.constraints.NotEmpty;
 import lombok.Getter;
 import lombok.Setter;
@@ -20,6 +21,7 @@ public class EmailRequestDto {
     유효하지 않은 이메일: example.com (도메인 파트가 없음)
     */
     @NotEmpty(message = "이메일을 입력해 주세요")
+    @NotBlank
     /*
     이 어노테이션은 해당 필드가 비어 있지 않은지 검증합니다. 즉, null이 아니고 빈 문자열이 아닌 경우에만 유효합니다.
     message 속성을 통해 유효성 검증 실패 시 사용자에게 보여줄 에러 메시지를 지정할 수 있습니다.
@@ -29,4 +31,6 @@ public class EmailRequestDto {
     유효하지 않은 값: "" (빈 문자열), null
      */
     private String email;
+
+
 }
