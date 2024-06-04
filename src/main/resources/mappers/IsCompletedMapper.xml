@@ -30,4 +30,10 @@
         WHERE   is_completed = 1 AND
                 user_id = #{userId};
     </select>
+
+    <delete id="DelIsCompletedList">
+        DELETE FROM todolist
+        WHERE user_id = #{userId}
+        AND is_completed = 1
+    </delete>
 </mapper>

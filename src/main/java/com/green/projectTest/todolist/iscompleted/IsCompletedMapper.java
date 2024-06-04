@@ -1,9 +1,6 @@
 package com.green.projectTest.todolist.iscompleted;
 
-import com.green.projectTest.todolist.iscompleted.model.GetIsCompletedListReq;
-import com.green.projectTest.todolist.iscompleted.model.GetIsCompletedListRes;
-import com.green.projectTest.todolist.iscompleted.model.SelIsCompletedRes;
-import com.green.projectTest.todolist.iscompleted.model.ToggleIsCompletedReq;
+import com.green.projectTest.todolist.iscompleted.model.*;
 import org.apache.ibatis.annotations.Mapper;
 
 import java.util.List;
@@ -14,4 +11,5 @@ public interface IsCompletedMapper {
     int patchDelIsCompleted(ToggleIsCompletedReq p);
     int patchInsIsCompleted(ToggleIsCompletedReq p);
     List<GetIsCompletedListRes> getIsCompletedList(GetIsCompletedListReq p);
+    int DelIsCompletedList(DelIsCompletedListReq p);
 }

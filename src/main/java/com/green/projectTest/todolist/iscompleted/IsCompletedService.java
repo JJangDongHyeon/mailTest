@@ -1,9 +1,6 @@
 package com.green.projectTest.todolist.iscompleted;
 
-import com.green.projectTest.todolist.iscompleted.model.GetIsCompletedListReq;
-import com.green.projectTest.todolist.iscompleted.model.GetIsCompletedListRes;
-import com.green.projectTest.todolist.iscompleted.model.SelIsCompletedRes;
-import com.green.projectTest.todolist.iscompleted.model.ToggleIsCompletedReq;
+import com.green.projectTest.todolist.iscompleted.model.*;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.stereotype.Service;
@@ -32,5 +29,9 @@ public class IsCompletedService {
         List<GetIsCompletedListRes> list = mapper.getIsCompletedList(p);
 
         return list;
+    }
+
+    public int DelIsCompletedList(DelIsCompletedListReq p){
+       return mapper.DelIsCompletedList(p);
     }
 }

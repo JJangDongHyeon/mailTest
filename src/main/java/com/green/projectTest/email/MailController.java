@@ -8,6 +8,7 @@ import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.web.bind.annotation.PostMapping;
 import org.springframework.web.bind.annotation.RequestBody;
+import org.springframework.web.bind.annotation.RequestMapping;
 import org.springframework.web.bind.annotation.RestController;
 
 import javax.mail.MessagingException;
@@ -18,10 +19,11 @@ import java.io.UnsupportedEncodingException;
 @Slf4j
 @RestController
 @RequiredArgsConstructor
+@RequestMapping("api/mail")
 public class MailController {
     private final MailSendService mailService;
 
-    @PostMapping ("/mailSend")
+    @PostMapping ("/send")
     public String mailSend(@RequestBody @Valid EmailRequestDto emailDto) throws AddressException  {
         try {
             System.out.println("이메일 인증 요청이 들어옴");
@@ -32,7 +34,7 @@ public class MailController {
         }
     }
 
-    @PostMapping("/mailauthCheck")
+    @PostMapping("/auth_check")
     public boolean AuthCheck(@RequestBody @Valid EmailCheckDto emailCheckDto){
         Boolean Checked= mailService.CheckAuthNum(emailCheckDto.getEmail(),emailCheckDto.getAuthNum());
         if(Checked){

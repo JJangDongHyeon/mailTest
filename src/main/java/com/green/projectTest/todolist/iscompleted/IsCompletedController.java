@@ -1,6 +1,7 @@
 package com.green.projectTest.todolist.iscompleted;
 
 import com.green.projectTest.common.model.ResultDto;
+import com.green.projectTest.todolist.iscompleted.model.DelIsCompletedListReq;
 import com.green.projectTest.todolist.iscompleted.model.GetIsCompletedListReq;
 import com.green.projectTest.todolist.iscompleted.model.GetIsCompletedListRes;
 import com.green.projectTest.todolist.iscompleted.model.ToggleIsCompletedReq;
@@ -44,6 +45,17 @@ public class IsCompletedController {
                 statusCode(HttpStatus.OK).
                 resultMsg(HttpStatus.OK.toString()).
                 resultData(list).
+                build();
+    }
+    @DeleteMapping
+    @Operation(summary = "완료된 일정 전체 삭제" , description = "완료된 일정을 전부 삭제합니다(비우기 버튼)")
+    public ResultDto<Integer> DelIsCompletedList(@ParameterObject @ModelAttribute DelIsCompletedListReq p){
+        int result = service.DelIsCompletedList(p);
+
+        return ResultDto.<Integer>builder().
+                statusCode(HttpStatus.OK).
+                resultMsg(HttpStatus.OK.toString()).
+                resultData(result).
                 build();
     }
 }

@@ -6,6 +6,6 @@ import lombok.Setter;
 @Getter
 @Setter
 public class SignInPostReq {
-    private String uid;
+    private String email;
     private String upw;
 }

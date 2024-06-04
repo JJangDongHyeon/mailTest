@@ -7,14 +7,14 @@
             keyProperty="userId">
         INSERT INTO user
         SET email = #{email},
-        upw = #{upw},
+        password = #{password},
         nickname  = #{nickname}
 
     </insert>
 
 
     <select id="getUserById">
-        SELECT user_id AS userId, email, upw, nickname, created_at AS createdAt, profile_update AS profileUpdate
+        SELECT user_id AS userId, email, password, nickname, created_at AS createdAt, updated_at AS updatedAt
         FROM user
         WHERE email = #{email}
     </select>

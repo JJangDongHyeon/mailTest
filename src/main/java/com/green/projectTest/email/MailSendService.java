@@ -23,7 +23,7 @@ public class MailSendService {
     @Autowired
     private RedisUtil redisUtil;
     private int authNumber;
-    private final MaileMapper mapper;
+    private final MailMapper mapper;
 
 
     //추가 되었다.

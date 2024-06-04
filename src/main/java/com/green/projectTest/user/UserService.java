@@ -25,8 +25,8 @@ public class UserService {
         if(userEntity != null){
             throw new RuntimeException("이미 있는 아이디입니다!");
         }
-        String hashedPassword = BCrypt.hashpw(p.getUpw() , BCrypt.gensalt());
-        p.setUpw(hashedPassword);
+        String hashedPassword = BCrypt.hashpw(p.getPassword() , BCrypt.gensalt());
+        p.setPassword(hashedPassword);
 //        String filename = customFileUtils.makeRandomFileName(file);
 //        p.setProfilePic(filename);
 //        int result = mapper.postUser(p);

@@ -6,6 +6,7 @@ import com.green.projectTest.todolist.model.GetTodoListRes;
 import com.green.projectTest.todolist.model.PostTodoListReq;
 import com.green.projectTest.todolist.model.PutTodoListReq;
 import io.swagger.v3.oas.annotations.Operation;
+import io.swagger.v3.oas.annotations.tags.Tag;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springdoc.core.annotations.ParameterObject;
@@ -70,3 +71,4 @@ public class TodoListController {
                 build();
     }
 }
+
