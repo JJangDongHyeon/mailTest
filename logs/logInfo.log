@@ -1,147 +1,84 @@
-[2024-06-04 15:27:40 [32mINFO [0;39m background-preinit] [org.hibernate.validator.internal.util.Version] [36mHV000001: Hibernate Validator 8.0.1.Final[0;39m
-[2024-06-04 15:27:40 [32mINFO [0;39m restartedMain] [com.green.projectTest.BoardVer3Application] [36mStarting BoardVer3Application using Java 17.0.10 with PID 8960 (D:\Students\DongHyeon\2024-01\backEnd\boardtest\build\classes\java\main started by Administrator in D:\Students\DongHyeon\2024-01\backEnd\boardtest)[0;39m
-[2024-06-04 15:27:40 [32mINFO [0;39m restartedMain] [com.green.projectTest.BoardVer3Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
-[2024-06-04 15:27:40 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable[0;39m
-[2024-06-04 15:27:40 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'[0;39m
-[2024-06-04 15:27:41 [32mINFO [0;39m restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [36mMultiple Spring Data modules found, entering strict repository configuration mode[0;39m
-[2024-06-04 15:27:41 [32mINFO [0;39m restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [36mBootstrapping Spring Data Redis repositories in DEFAULT mode.[0;39m
-[2024-06-04 15:27:41 [32mINFO [0;39m restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [36mFinished Spring Data repository scanning in 7 ms. Found 0 Redis repository interfaces.[0;39m
-[2024-06-04 15:27:41 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
-[2024-06-04 15:27:42 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
-[2024-06-04 15:27:42 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
-[2024-06-04 15:27:42 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.20][0;39m
-[2024-06-04 15:27:42 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
-[2024-06-04 15:27:42 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 1235 ms[0;39m
-[2024-06-04 15:27:42 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
-[2024-06-04 15:27:42 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
-[2024-06-04 15:27:42 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
-[2024-06-04 15:27:42 [32mINFO [0;39m restartedMain] [com.green.projectTest.BoardVer3Application] [36mStarted BoardVer3Application in 2.535 seconds (process running for 2.944)[0;39m
-[2024-06-04 15:27:43 [32mINFO [0;39m http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring DispatcherServlet 'dispatcherServlet'[0;39m
-[2024-06-04 15:27:43 [32mINFO [0;39m http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mInitializing Servlet 'dispatcherServlet'[0;39m
-[2024-06-04 15:27:43 [32mINFO [0;39m http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mCompleted initialization in 0 ms[0;39m
-[2024-06-04 15:27:43 [32mINFO [0;39m http-nio-8080-exec-8] [org.springdoc.api.AbstractOpenApiResource] [36mInit duration for springdoc-openapi is: 279 ms[0;39m
-[2024-06-04 15:28:03 [33mWARN [0;39m http-nio-8080-exec-4] [org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver] [36mResolved [javax.mail.internet.AddressException][0;39m
-[2024-06-04 15:29:09 [33mWARN [0;39m http-nio-8080-exec-9] [org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver] [36mResolved [javax.mail.internet.AddressException][0;39m
-[2024-06-04 15:29:52 [32mINFO [0;39m background-preinit] [org.hibernate.validator.internal.util.Version] [36mHV000001: Hibernate Validator 8.0.1.Final[0;39m
-[2024-06-04 15:29:52 [32mINFO [0;39m restartedMain] [com.green.projectTest.BoardVer3Application] [36mStarting BoardVer3Application using Java 17.0.10 with PID 3540 (D:\Students\DongHyeon\2024-01\backEnd\boardtest\build\classes\java\main started by Administrator in D:\Students\DongHyeon\2024-01\backEnd\boardtest)[0;39m
-[2024-06-04 15:29:52 [32mINFO [0;39m restartedMain] [com.green.projectTest.BoardVer3Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
-[2024-06-04 15:29:52 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable[0;39m
-[2024-06-04 15:29:52 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'[0;39m
-[2024-06-04 15:29:52 [32mINFO [0;39m restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [36mMultiple Spring Data modules found, entering strict repository configuration mode[0;39m
-[2024-06-04 15:29:52 [32mINFO [0;39m restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [36mBootstrapping Spring Data Redis repositories in DEFAULT mode.[0;39m
-[2024-06-04 15:29:52 [32mINFO [0;39m restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [36mFinished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.[0;39m
-[2024-06-04 15:29:53 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
-[2024-06-04 15:29:53 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
-[2024-06-04 15:29:53 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
-[2024-06-04 15:29:53 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.20][0;39m
-[2024-06-04 15:29:53 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
-[2024-06-04 15:29:53 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 983 ms[0;39m
-[2024-06-04 15:29:54 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
-[2024-06-04 15:29:54 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
-[2024-06-04 15:29:54 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
-[2024-06-04 15:29:54 [32mINFO [0;39m restartedMain] [com.green.projectTest.BoardVer3Application] [36mStarted BoardVer3Application in 2.126 seconds (process running for 2.501)[0;39m
-[2024-06-04 15:29:56 [32mINFO [0;39m http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring DispatcherServlet 'dispatcherServlet'[0;39m
-[2024-06-04 15:29:56 [32mINFO [0;39m http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mInitializing Servlet 'dispatcherServlet'[0;39m
-[2024-06-04 15:29:56 [32mINFO [0;39m http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mCompleted initialization in 1 ms[0;39m
-[2024-06-04 15:29:56 [33mWARN [0;39m http-nio-8080-exec-1] [org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver] [36mResolved [javax.mail.internet.AddressException][0;39m
-[2024-06-04 15:31:16 [32mINFO [0;39m File Watcher] [org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] [36mRestarting due to 2 class path changes (0 additions, 2 deletions, 0 modifications)[0;39m
-[2024-06-04 15:31:16 [32mINFO [0;39m Thread-5] [org.apache.coyote.http11.Http11NioProtocol] [36mStopping ProtocolHandler ["http-nio-8080"][0;39m
-[2024-06-04 15:31:16 [32mINFO [0;39m restartedMain] [com.green.projectTest.BoardVer3Application] [36mStarting BoardVer3Application using Java 17.0.10 with PID 3540 (D:\Students\DongHyeon\2024-01\backEnd\boardtest\build\classes\java\main started by Administrator in D:\Students\DongHyeon\2024-01\backEnd\boardtest)[0;39m
-[2024-06-04 15:31:16 [32mINFO [0;39m restartedMain] [com.green.projectTest.BoardVer3Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
-[2024-06-04 15:31:16 [32mINFO [0;39m restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [36mMultiple Spring Data modules found, entering strict repository configuration mode[0;39m
-[2024-06-04 15:31:16 [32mINFO [0;39m restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [36mBootstrapping Spring Data Redis repositories in DEFAULT mode.[0;39m
-[2024-06-04 15:31:16 [32mINFO [0;39m restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [36mFinished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.[0;39m
-[2024-06-04 15:31:16 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
-[2024-06-04 15:31:16 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
-[2024-06-04 15:31:16 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
-[2024-06-04 15:31:16 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.20][0;39m
-[2024-06-04 15:31:16 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
-[2024-06-04 15:31:16 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 235 ms[0;39m
-[2024-06-04 15:31:16 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
-[2024-06-04 15:31:16 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
-[2024-06-04 15:31:16 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
-[2024-06-04 15:31:16 [32mINFO [0;39m restartedMain] [com.green.projectTest.BoardVer3Application] [36mStarted BoardVer3Application in 0.422 seconds (process running for 84.954)[0;39m
-[2024-06-04 15:31:16 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [36mCondition evaluation unchanged[0;39m
-[2024-06-04 15:31:18 [32mINFO [0;39m File Watcher] [org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] [36mRestarting due to 2 class path changes (2 additions, 0 deletions, 0 modifications)[0;39m
-[2024-06-04 15:31:18 [32mINFO [0;39m Thread-7] [org.apache.coyote.http11.Http11NioProtocol] [36mStopping ProtocolHandler ["http-nio-8080"][0;39m
-[2024-06-04 15:31:18 [32mINFO [0;39m restartedMain] [com.green.projectTest.BoardVer3Application] [36mStarting BoardVer3Application using Java 17.0.10 with PID 3540 (D:\Students\DongHyeon\2024-01\backEnd\boardtest\build\classes\java\main started by Administrator in D:\Students\DongHyeon\2024-01\backEnd\boardtest)[0;39m
-[2024-06-04 15:31:18 [32mINFO [0;39m restartedMain] [com.green.projectTest.BoardVer3Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
-[2024-06-04 15:31:18 [32mINFO [0;39m restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [36mMultiple Spring Data modules found, entering strict repository configuration mode[0;39m
-[2024-06-04 15:31:18 [32mINFO [0;39m restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [36mBootstrapping Spring Data Redis repositories in DEFAULT mode.[0;39m
-[2024-06-04 15:31:18 [32mINFO [0;39m restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [36mFinished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.[0;39m
-[2024-06-04 15:31:18 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
-[2024-06-04 15:31:18 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
-[2024-06-04 15:31:18 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
-[2024-06-04 15:31:18 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.20][0;39m
-[2024-06-04 15:31:18 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
-[2024-06-04 15:31:18 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 211 ms[0;39m
-[2024-06-04 15:31:18 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
-[2024-06-04 15:31:18 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
-[2024-06-04 15:31:18 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
-[2024-06-04 15:31:18 [32mINFO [0;39m restartedMain] [com.green.projectTest.BoardVer3Application] [36mStarted BoardVer3Application in 0.394 seconds (process running for 86.803)[0;39m
-[2024-06-04 15:31:18 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [36mCondition evaluation unchanged[0;39m
-[2024-06-04 15:31:49 [32mINFO [0;39m http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring DispatcherServlet 'dispatcherServlet'[0;39m
-[2024-06-04 15:31:49 [32mINFO [0;39m http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mInitializing Servlet 'dispatcherServlet'[0;39m
-[2024-06-04 15:31:49 [32mINFO [0;39m http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mCompleted initialization in 1 ms[0;39m
-[2024-06-04 15:31:49 [32mINFO [0;39m http-nio-8080-exec-5] [org.springdoc.api.AbstractOpenApiResource] [36mInit duration for springdoc-openapi is: 252 ms[0;39m
-[2024-06-04 15:32:27 [32mINFO [0;39m background-preinit] [org.hibernate.validator.internal.util.Version] [36mHV000001: Hibernate Validator 8.0.1.Final[0;39m
-[2024-06-04 15:32:27 [32mINFO [0;39m restartedMain] [com.green.projectTest.BoardVer3Application] [36mStarting BoardVer3Application using Java 17.0.10 with PID 10368 (D:\Students\DongHyeon\2024-01\backEnd\boardtest\build\classes\java\main started by Administrator in D:\Students\DongHyeon\2024-01\backEnd\boardtest)[0;39m
-[2024-06-04 15:32:27 [32mINFO [0;39m restartedMain] [com.green.projectTest.BoardVer3Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
-[2024-06-04 15:32:27 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable[0;39m
-[2024-06-04 15:32:27 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'[0;39m
-[2024-06-04 15:32:28 [32mINFO [0;39m restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [36mMultiple Spring Data modules found, entering strict repository configuration mode[0;39m
-[2024-06-04 15:32:28 [32mINFO [0;39m restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [36mBootstrapping Spring Data Redis repositories in DEFAULT mode.[0;39m
-[2024-06-04 15:32:28 [32mINFO [0;39m restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [36mFinished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.[0;39m
-[2024-06-04 15:32:28 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
-[2024-06-04 15:32:28 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
-[2024-06-04 15:32:28 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
-[2024-06-04 15:32:28 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.20][0;39m
-[2024-06-04 15:32:28 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
-[2024-06-04 15:32:28 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 1047 ms[0;39m
-[2024-06-04 15:32:29 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
-[2024-06-04 15:32:29 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
-[2024-06-04 15:32:29 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
-[2024-06-04 15:32:29 [32mINFO [0;39m restartedMain] [com.green.projectTest.BoardVer3Application] [36mStarted BoardVer3Application in 2.154 seconds (process running for 2.534)[0;39m
-[2024-06-04 15:32:32 [32mINFO [0;39m http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring DispatcherServlet 'dispatcherServlet'[0;39m
-[2024-06-04 15:32:32 [32mINFO [0;39m http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mInitializing Servlet 'dispatcherServlet'[0;39m
-[2024-06-04 15:32:32 [32mINFO [0;39m http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mCompleted initialization in 1 ms[0;39m
-[2024-06-04 15:32:33 [32mINFO [0;39m http-nio-8080-exec-7] [org.springdoc.api.AbstractOpenApiResource] [36mInit duration for springdoc-openapi is: 292 ms[0;39m
-[2024-06-04 15:32:45 [33mWARN [0;39m http-nio-8080-exec-5] [org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver] [36mResolved [javax.mail.internet.AddressException][0;39m
-[2024-06-04 15:32:57 [33mWARN [0;39m http-nio-8080-exec-6] [org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver] [36mResolved [javax.mail.internet.AddressException][0;39m
-[2024-06-04 15:32:58 [33mWARN [0;39m http-nio-8080-exec-2] [org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver] [36mResolved [javax.mail.internet.AddressException][0;39m
-[2024-06-04 15:34:48 [32mINFO [0;39m background-preinit] [org.hibernate.validator.internal.util.Version] [36mHV000001: Hibernate Validator 8.0.1.Final[0;39m
-[2024-06-04 15:34:48 [32mINFO [0;39m restartedMain] [com.green.projectTest.BoardVer3Application] [36mStarting BoardVer3Application using Java 17.0.10 with PID 11712 (D:\Students\DongHyeon\2024-01\backEnd\boardtest\build\classes\java\main started by Administrator in D:\Students\DongHyeon\2024-01\backEnd\boardtest)[0;39m
-[2024-06-04 15:34:48 [32mINFO [0;39m restartedMain] [com.green.projectTest.BoardVer3Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
-[2024-06-04 15:34:48 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable[0;39m
-[2024-06-04 15:34:48 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'[0;39m
-[2024-06-04 15:34:48 [32mINFO [0;39m restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [36mMultiple Spring Data modules found, entering strict repository configuration mode[0;39m
-[2024-06-04 15:34:48 [32mINFO [0;39m restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [36mBootstrapping Spring Data Redis repositories in DEFAULT mode.[0;39m
-[2024-06-04 15:34:48 [32mINFO [0;39m restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [36mFinished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.[0;39m
-[2024-06-04 15:34:49 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
-[2024-06-04 15:34:49 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
-[2024-06-04 15:34:49 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
-[2024-06-04 15:34:49 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.20][0;39m
-[2024-06-04 15:34:49 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
-[2024-06-04 15:34:49 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 995 ms[0;39m
-[2024-06-04 15:34:49 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
-[2024-06-04 15:34:49 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
-[2024-06-04 15:34:49 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
-[2024-06-04 15:34:49 [32mINFO [0;39m restartedMain] [com.green.projectTest.BoardVer3Application] [36mStarted BoardVer3Application in 2.076 seconds (process running for 2.445)[0;39m
-[2024-06-04 15:34:55 [32mINFO [0;39m http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring DispatcherServlet 'dispatcherServlet'[0;39m
-[2024-06-04 15:34:55 [32mINFO [0;39m http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mInitializing Servlet 'dispatcherServlet'[0;39m
-[2024-06-04 15:34:55 [32mINFO [0;39m http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mCompleted initialization in 1 ms[0;39m
-[2024-06-04 15:34:55 [31mERROR[0;39m http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet]] [36mServlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.green.projectTest.email.MaileMapper.getUserByEmail] with root cause[0;39m
-org.apache.ibatis.binding.BindingException: Invalid bound statement (not found): com.green.projectTest.email.MaileMapper.getUserByEmail
-	at org.apache.ibatis.binding.MapperMethod$SqlCommand.<init>(MapperMethod.java:229)
-	at org.apache.ibatis.binding.MapperMethod.<init>(MapperMethod.java:53)
-	at org.apache.ibatis.binding.MapperProxy.lambda$cachedInvoker$0(MapperProxy.java:96)
-	at java.base/java.util.concurrent.ConcurrentHashMap.computeIfAbsent(ConcurrentHashMap.java:1708)
-	at org.apache.ibatis.util.MapUtil.computeIfAbsent(MapUtil.java:36)
-	at org.apache.ibatis.binding.MapperProxy.cachedInvoker(MapperProxy.java:94)
-	at org.apache.ibatis.binding.MapperProxy.invoke(MapperProxy.java:86)
-	at jdk.proxy3/jdk.proxy3.$Proxy83.getUserByEmail(Unknown Source)
-	at com.green.projectTest.email.MailSendService.joinEmail(MailSendService.java:55)
-	at com.green.projectTest.email.MailController.mailSend(MailController.java:31)
+[2024-06-05 15:06:16 [32mINFO [0;39m background-preinit] [org.hibernate.validator.internal.util.Version] [36mHV000001: Hibernate Validator 8.0.1.Final[0;39m
+[2024-06-05 15:06:16 [32mINFO [0;39m restartedMain] [com.green.projectTest.BoardVer3Application] [36mStarting BoardVer3Application using Java 17.0.10 with PID 8504 (D:\Students\DongHyeon\2024-01\backEnd\boardtest\build\classes\java\main started by Administrator in D:\Students\DongHyeon\2024-01\backEnd\boardtest)[0;39m
+[2024-06-05 15:06:16 [32mINFO [0;39m restartedMain] [com.green.projectTest.BoardVer3Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2024-06-05 15:06:16 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable[0;39m
+[2024-06-05 15:06:16 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'[0;39m
+[2024-06-05 15:06:17 [32mINFO [0;39m restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [36mMultiple Spring Data modules found, entering strict repository configuration mode[0;39m
+[2024-06-05 15:06:17 [32mINFO [0;39m restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [36mBootstrapping Spring Data Redis repositories in DEFAULT mode.[0;39m
+[2024-06-05 15:06:17 [32mINFO [0;39m restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [36mFinished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.[0;39m
+[2024-06-05 15:06:17 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2024-06-05 15:06:17 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2024-06-05 15:06:17 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2024-06-05 15:06:17 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.20][0;39m
+[2024-06-05 15:06:17 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2024-06-05 15:06:17 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 1163 ms[0;39m
+[2024-06-05 15:06:18 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
+[2024-06-05 15:06:18 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
+[2024-06-05 15:06:18 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
+[2024-06-05 15:06:18 [32mINFO [0;39m restartedMain] [com.green.projectTest.BoardVer3Application] [36mStarted BoardVer3Application in 2.435 seconds (process running for 2.862)[0;39m
+[2024-06-05 15:06:24 [32mINFO [0;39m http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring DispatcherServlet 'dispatcherServlet'[0;39m
+[2024-06-05 15:06:24 [32mINFO [0;39m http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mInitializing Servlet 'dispatcherServlet'[0;39m
+[2024-06-05 15:06:24 [32mINFO [0;39m http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mCompleted initialization in 1 ms[0;39m
+[2024-06-05 15:06:25 [32mINFO [0;39m http-nio-8080-exec-9] [org.springdoc.api.AbstractOpenApiResource] [36mInit duration for springdoc-openapi is: 269 ms[0;39m
+[2024-06-05 15:06:54 [32mINFO [0;39m http-nio-8080-exec-5] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Starting...[0;39m
+[2024-06-05 15:06:54 [32mINFO [0;39m http-nio-8080-exec-5] [com.zaxxer.hikari.pool.HikariPool] [36mHikariPool-1 - Added connection org.mariadb.jdbc.Connection@3f3ebf6e[0;39m
+[2024-06-05 15:06:54 [32mINFO [0;39m http-nio-8080-exec-5] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Start completed.[0;39m
+[2024-06-05 15:07:14 [33mWARN [0;39m http-nio-8080-exec-6] [org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver] [36mResolved [java.lang.NullPointerException: 다시 확인해주세요!][0;39m
+[2024-06-05 15:07:20 [33mWARN [0;39m http-nio-8080-exec-3] [org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver] [36mResolved [java.lang.NullPointerException: 다시 확인해주세요!][0;39m
+[2024-06-05 15:08:00 [32mINFO [0;39m SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Shutdown initiated...[0;39m
+[2024-06-05 15:08:00 [32mINFO [0;39m SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Shutdown completed.[0;39m
+[2024-06-05 17:40:15 [32mINFO [0;39m background-preinit] [org.hibernate.validator.internal.util.Version] [36mHV000001: Hibernate Validator 8.0.1.Final[0;39m
+[2024-06-05 17:40:15 [32mINFO [0;39m restartedMain] [com.green.projectTest.BoardVer3Application] [36mStarting BoardVer3Application using Java 17.0.10 with PID 5592 (D:\Students\DongHyeon\2024-01\backEnd\boardtest\build\classes\java\main started by Administrator in D:\Students\DongHyeon\2024-01\backEnd\boardtest)[0;39m
+[2024-06-05 17:40:15 [32mINFO [0;39m restartedMain] [com.green.projectTest.BoardVer3Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2024-06-05 17:40:15 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable[0;39m
+[2024-06-05 17:40:15 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'[0;39m
+[2024-06-05 17:40:15 [32mINFO [0;39m restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [36mMultiple Spring Data modules found, entering strict repository configuration mode[0;39m
+[2024-06-05 17:40:15 [32mINFO [0;39m restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [36mBootstrapping Spring Data Redis repositories in DEFAULT mode.[0;39m
+[2024-06-05 17:40:15 [32mINFO [0;39m restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [36mFinished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.[0;39m
+[2024-06-05 17:40:15 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2024-06-05 17:40:15 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2024-06-05 17:40:16 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2024-06-05 17:40:16 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.20][0;39m
+[2024-06-05 17:40:16 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2024-06-05 17:40:16 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 986 ms[0;39m
+[2024-06-05 17:40:16 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
+[2024-06-05 17:40:16 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
+[2024-06-05 17:40:16 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
+[2024-06-05 17:40:16 [32mINFO [0;39m restartedMain] [com.green.projectTest.BoardVer3Application] [36mStarted BoardVer3Application in 2.065 seconds (process running for 2.431)[0;39m
+[2024-06-05 17:40:20 [32mINFO [0;39m http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring DispatcherServlet 'dispatcherServlet'[0;39m
+[2024-06-05 17:40:20 [32mINFO [0;39m http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mInitializing Servlet 'dispatcherServlet'[0;39m
+[2024-06-05 17:40:20 [32mINFO [0;39m http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mCompleted initialization in 0 ms[0;39m
+[2024-06-05 17:40:21 [32mINFO [0;39m http-nio-8080-exec-2] [org.springdoc.api.AbstractOpenApiResource] [36mInit duration for springdoc-openapi is: 278 ms[0;39m
+[2024-06-05 17:40:44 [33mWARN [0;39m http-nio-8080-exec-5] [org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver] [36mResolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.green.projectTest.email.model.ErrorResult> com.green.projectTest.user.UserController.postUser(com.green.projectTest.user.model.UserPostReq): [Field error in object 'userPostReq' on field 'password': rejected value [1234]; codes [Pattern.userPostReq.password,Pattern.password,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [userPostReq.password,password]; arguments []; default message [password],[Ljakarta.validation.constraints.Pattern$Flag;@79a7f753,(?=.*[0-9])(?=.*[a-zA-Z]).{8,16}]; default message [비밀번호는 영문과 숫자를 포함하여 8~16자리여야 합니다.]] ][0;39m
+[2024-06-05 17:41:01 [32mINFO [0;39m http-nio-8080-exec-6] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Starting...[0;39m
+[2024-06-05 17:41:01 [33mWARN [0;39m http-nio-8080-exec-6] [org.mariadb.jdbc.message.server.ErrorPacket] [36mError: 1049-42000: Unknown database 'project_test'[0;39m
+[2024-06-05 17:41:02 [31mERROR[0;39m http-nio-8080-exec-6] [com.zaxxer.hikari.pool.HikariPool] [36mHikariPool-1 - Exception during pool initialization.[0;39m
+java.sql.SQLSyntaxErrorException: (conn=236) Unknown database 'project_test'
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:289)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:378)
+	at org.mariadb.jdbc.client.impl.ConnectionHelper.authenticationHandler(ConnectionHelper.java:279)
+	at org.mariadb.jdbc.client.impl.StandardClient.<init>(StandardClient.java:195)
+	at org.mariadb.jdbc.Driver.connect(Driver.java:69)
+	at org.mariadb.jdbc.Driver.connect(Driver.java:95)
+	at org.mariadb.jdbc.Driver.connect(Driver.java:26)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:359)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:470)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:100)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceTransactionManager.doBegin(DataSourceTransactionManager.java:269)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.startTransaction(AbstractPlatformTransactionManager.java:531)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.getTransaction(AbstractPlatformTransactionManager.java:405)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.createTransactionIfNecessary(TransactionAspectSupport.java:617)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:386)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:720)
+	at com.green.projectTest.user.UserService$$SpringCGLIB$$0.postUser(<generated>)
+	at com.green.projectTest.user.UserController.postUser(UserController.java:32)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
 	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
 	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
@@ -192,75 +129,525 @@ org.apache.ibatis.binding.BindingException: Invalid bound statement (not found):
 	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
 	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
 	at java.base/java.lang.Thread.run(Thread.java:840)
-[2024-06-04 15:38:17 [32mINFO [0;39m background-preinit] [org.hibernate.validator.internal.util.Version] [36mHV000001: Hibernate Validator 8.0.1.Final[0;39m
-[2024-06-04 15:38:17 [32mINFO [0;39m restartedMain] [com.green.projectTest.BoardVer3Application] [36mStarting BoardVer3Application using Java 17.0.10 with PID 8532 (D:\Students\DongHyeon\2024-01\backEnd\boardtest\build\classes\java\main started by Administrator in D:\Students\DongHyeon\2024-01\backEnd\boardtest)[0;39m
-[2024-06-04 15:38:17 [32mINFO [0;39m restartedMain] [com.green.projectTest.BoardVer3Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
-[2024-06-04 15:38:17 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable[0;39m
-[2024-06-04 15:38:17 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'[0;39m
-[2024-06-04 15:38:18 [32mINFO [0;39m restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [36mMultiple Spring Data modules found, entering strict repository configuration mode[0;39m
-[2024-06-04 15:38:18 [32mINFO [0;39m restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [36mBootstrapping Spring Data Redis repositories in DEFAULT mode.[0;39m
-[2024-06-04 15:38:18 [32mINFO [0;39m restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [36mFinished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.[0;39m
-[2024-06-04 15:38:18 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
-[2024-06-04 15:38:18 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
-[2024-06-04 15:38:18 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
-[2024-06-04 15:38:18 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.20][0;39m
-[2024-06-04 15:38:18 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
-[2024-06-04 15:38:18 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 1145 ms[0;39m
-[2024-06-04 15:38:19 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
-[2024-06-04 15:38:19 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
-[2024-06-04 15:38:19 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
-[2024-06-04 15:38:19 [32mINFO [0;39m restartedMain] [com.green.projectTest.BoardVer3Application] [36mStarted BoardVer3Application in 2.329 seconds (process running for 2.76)[0;39m
-[2024-06-04 15:38:20 [32mINFO [0;39m http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring DispatcherServlet 'dispatcherServlet'[0;39m
-[2024-06-04 15:38:20 [32mINFO [0;39m http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mInitializing Servlet 'dispatcherServlet'[0;39m
-[2024-06-04 15:38:20 [32mINFO [0;39m http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mCompleted initialization in 1 ms[0;39m
-[2024-06-04 15:38:20 [32mINFO [0;39m http-nio-8080-exec-1] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Starting...[0;39m
-[2024-06-04 15:38:20 [32mINFO [0;39m http-nio-8080-exec-1] [com.zaxxer.hikari.pool.HikariPool] [36mHikariPool-1 - Added connection org.mariadb.jdbc.Connection@70411403[0;39m
-[2024-06-04 15:38:20 [32mINFO [0;39m http-nio-8080-exec-1] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Start completed.[0;39m
-[2024-06-04 15:38:51 [32mINFO [0;39m SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Shutdown initiated...[0;39m
-[2024-06-04 15:38:51 [32mINFO [0;39m SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Shutdown completed.[0;39m
-[2024-06-04 15:38:54 [32mINFO [0;39m background-preinit] [org.hibernate.validator.internal.util.Version] [36mHV000001: Hibernate Validator 8.0.1.Final[0;39m
-[2024-06-04 15:38:54 [32mINFO [0;39m restartedMain] [com.green.projectTest.BoardVer3Application] [36mStarting BoardVer3Application using Java 17.0.10 with PID 9620 (D:\Students\DongHyeon\2024-01\backEnd\boardtest\build\classes\java\main started by Administrator in D:\Students\DongHyeon\2024-01\backEnd\boardtest)[0;39m
-[2024-06-04 15:38:54 [32mINFO [0;39m restartedMain] [com.green.projectTest.BoardVer3Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
-[2024-06-04 15:38:54 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable[0;39m
-[2024-06-04 15:38:54 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'[0;39m
-[2024-06-04 15:38:54 [32mINFO [0;39m restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [36mMultiple Spring Data modules found, entering strict repository configuration mode[0;39m
-[2024-06-04 15:38:54 [32mINFO [0;39m restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [36mBootstrapping Spring Data Redis repositories in DEFAULT mode.[0;39m
-[2024-06-04 15:38:54 [32mINFO [0;39m restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [36mFinished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.[0;39m
-[2024-06-04 15:38:55 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
-[2024-06-04 15:38:55 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
-[2024-06-04 15:38:55 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
-[2024-06-04 15:38:55 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.20][0;39m
-[2024-06-04 15:38:55 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
-[2024-06-04 15:38:55 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 990 ms[0;39m
-[2024-06-04 15:38:55 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
-[2024-06-04 15:38:55 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
-[2024-06-04 15:38:55 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
-[2024-06-04 15:38:55 [32mINFO [0;39m restartedMain] [com.green.projectTest.BoardVer3Application] [36mStarted BoardVer3Application in 2.064 seconds (process running for 2.429)[0;39m
-[2024-06-04 15:38:58 [32mINFO [0;39m http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring DispatcherServlet 'dispatcherServlet'[0;39m
-[2024-06-04 15:38:58 [32mINFO [0;39m http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mInitializing Servlet 'dispatcherServlet'[0;39m
-[2024-06-04 15:38:58 [32mINFO [0;39m http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mCompleted initialization in 1 ms[0;39m
-[2024-06-04 15:38:58 [32mINFO [0;39m http-nio-8080-exec-1] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Starting...[0;39m
-[2024-06-04 15:38:58 [32mINFO [0;39m http-nio-8080-exec-1] [com.zaxxer.hikari.pool.HikariPool] [36mHikariPool-1 - Added connection org.mariadb.jdbc.Connection@1942a9ed[0;39m
-[2024-06-04 15:38:58 [32mINFO [0;39m http-nio-8080-exec-1] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Start completed.[0;39m
-[2024-06-04 15:40:39 [33mWARN [0;39m http-nio-8080-exec-4] [org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver] [36mResolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public java.lang.String com.green.projectTest.email.MailController.mailSend(com.green.projectTest.email.model.EmailRequestDto) throws javax.mail.internet.AddressException: [Field error in object 'emailRequestDto' on field 'email': rejected value [poo025naver.com]; codes [Email.emailRequestDto.email,Email.email,Email.java.lang.String,Email]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [emailRequestDto.email,email]; arguments []; default message [email],[Ljakarta.validation.constraints.Pattern$Flag;@2874c836,.*]; default message [올바른 형식의 이메일 주소여야 합니다]] ][0;39m
-[2024-06-04 15:49:00 [33mWARN [0;39m http-nio-8080-exec-7] [org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver] [36mResolved [java.lang.NullPointerException: 다시 확인해주세요!][0;39m
-[2024-06-04 17:40:07 [32mINFO [0;39m File Watcher] [org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] [36mRestarting due to 1 class path change (0 additions, 0 deletions, 1 modification)[0;39m
-[2024-06-04 17:40:07 [32mINFO [0;39m Thread-5] [org.apache.coyote.http11.Http11NioProtocol] [36mStopping ProtocolHandler ["http-nio-8080"][0;39m
-[2024-06-04 17:40:07 [32mINFO [0;39m Thread-5] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Shutdown initiated...[0;39m
-[2024-06-04 17:40:07 [32mINFO [0;39m Thread-5] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Shutdown completed.[0;39m
-[2024-06-04 17:40:07 [32mINFO [0;39m restartedMain] [com.green.projectTest.BoardVer3Application] [36mStarting BoardVer3Application using Java 17.0.10 with PID 9620 (D:\Students\DongHyeon\2024-01\backEnd\boardtest\build\classes\java\main started by Administrator in D:\Students\DongHyeon\2024-01\backEnd\boardtest)[0;39m
-[2024-06-04 17:40:07 [32mINFO [0;39m restartedMain] [com.green.projectTest.BoardVer3Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
-[2024-06-04 17:40:07 [32mINFO [0;39m restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [36mMultiple Spring Data modules found, entering strict repository configuration mode[0;39m
-[2024-06-04 17:40:07 [32mINFO [0;39m restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [36mBootstrapping Spring Data Redis repositories in DEFAULT mode.[0;39m
-[2024-06-04 17:40:07 [32mINFO [0;39m restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [36mFinished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.[0;39m
-[2024-06-04 17:40:07 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
-[2024-06-04 17:40:07 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
-[2024-06-04 17:40:07 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
-[2024-06-04 17:40:07 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.20][0;39m
-[2024-06-04 17:40:07 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
-[2024-06-04 17:40:07 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 241 ms[0;39m
-[2024-06-04 17:40:07 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
-[2024-06-04 17:40:07 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
-[2024-06-04 17:40:07 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
-[2024-06-04 17:40:07 [32mINFO [0;39m restartedMain] [com.green.projectTest.BoardVer3Application] [36mStarted BoardVer3Application in 0.455 seconds (process running for 7274.373)[0;39m
-[2024-06-04 17:40:07 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [36mCondition evaluation unchanged[0;39m
+[2024-06-05 17:41:02 [31mERROR[0;39m http-nio-8080-exec-6] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet]] [36mServlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: org.springframework.transaction.CannotCreateTransactionException: Could not open JDBC Connection for transaction] with root cause[0;39m
+java.sql.SQLSyntaxErrorException: (conn=236) Unknown database 'project_test'
+	at org.mariadb.jdbc.export.ExceptionFactory.createException(ExceptionFactory.java:289)
+	at org.mariadb.jdbc.export.ExceptionFactory.create(ExceptionFactory.java:378)
+	at org.mariadb.jdbc.client.impl.ConnectionHelper.authenticationHandler(ConnectionHelper.java:279)
+	at org.mariadb.jdbc.client.impl.StandardClient.<init>(StandardClient.java:195)
+	at org.mariadb.jdbc.Driver.connect(Driver.java:69)
+	at org.mariadb.jdbc.Driver.connect(Driver.java:95)
+	at org.mariadb.jdbc.Driver.connect(Driver.java:26)
+	at com.zaxxer.hikari.util.DriverDataSource.getConnection(DriverDataSource.java:138)
+	at com.zaxxer.hikari.pool.PoolBase.newConnection(PoolBase.java:359)
+	at com.zaxxer.hikari.pool.PoolBase.newPoolEntry(PoolBase.java:201)
+	at com.zaxxer.hikari.pool.HikariPool.createPoolEntry(HikariPool.java:470)
+	at com.zaxxer.hikari.pool.HikariPool.checkFailFast(HikariPool.java:561)
+	at com.zaxxer.hikari.pool.HikariPool.<init>(HikariPool.java:100)
+	at com.zaxxer.hikari.HikariDataSource.getConnection(HikariDataSource.java:112)
+	at org.springframework.jdbc.datasource.DataSourceTransactionManager.doBegin(DataSourceTransactionManager.java:269)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.startTransaction(AbstractPlatformTransactionManager.java:531)
+	at org.springframework.transaction.support.AbstractPlatformTransactionManager.getTransaction(AbstractPlatformTransactionManager.java:405)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.createTransactionIfNecessary(TransactionAspectSupport.java:617)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:386)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:720)
+	at com.green.projectTest.user.UserService$$SpringCGLIB$$0.postUser(<generated>)
+	at com.green.projectTest.user.UserController.postUser(UserController.java:32)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1736)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+[2024-06-05 17:41:28 [32mINFO [0;39m background-preinit] [org.hibernate.validator.internal.util.Version] [36mHV000001: Hibernate Validator 8.0.1.Final[0;39m
+[2024-06-05 17:41:28 [32mINFO [0;39m restartedMain] [com.green.projectTest.BoardVer3Application] [36mStarting BoardVer3Application using Java 17.0.10 with PID 6420 (D:\Students\DongHyeon\2024-01\backEnd\boardtest\build\classes\java\main started by Administrator in D:\Students\DongHyeon\2024-01\backEnd\boardtest)[0;39m
+[2024-06-05 17:41:28 [32mINFO [0;39m restartedMain] [com.green.projectTest.BoardVer3Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2024-06-05 17:41:28 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable[0;39m
+[2024-06-05 17:41:28 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'[0;39m
+[2024-06-05 17:41:28 [32mINFO [0;39m restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [36mMultiple Spring Data modules found, entering strict repository configuration mode[0;39m
+[2024-06-05 17:41:28 [32mINFO [0;39m restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [36mBootstrapping Spring Data Redis repositories in DEFAULT mode.[0;39m
+[2024-06-05 17:41:28 [32mINFO [0;39m restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [36mFinished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.[0;39m
+[2024-06-05 17:41:29 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2024-06-05 17:41:29 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2024-06-05 17:41:29 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2024-06-05 17:41:29 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.20][0;39m
+[2024-06-05 17:41:29 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2024-06-05 17:41:29 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 998 ms[0;39m
+[2024-06-05 17:41:29 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
+[2024-06-05 17:41:29 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
+[2024-06-05 17:41:29 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
+[2024-06-05 17:41:29 [32mINFO [0;39m restartedMain] [com.green.projectTest.BoardVer3Application] [36mStarted BoardVer3Application in 2.222 seconds (process running for 2.59)[0;39m
+[2024-06-05 17:41:30 [32mINFO [0;39m http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring DispatcherServlet 'dispatcherServlet'[0;39m
+[2024-06-05 17:41:30 [32mINFO [0;39m http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mInitializing Servlet 'dispatcherServlet'[0;39m
+[2024-06-05 17:41:30 [32mINFO [0;39m http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mCompleted initialization in 1 ms[0;39m
+[2024-06-05 17:41:30 [32mINFO [0;39m http-nio-8080-exec-1] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Starting...[0;39m
+[2024-06-05 17:41:30 [32mINFO [0;39m http-nio-8080-exec-1] [com.zaxxer.hikari.pool.HikariPool] [36mHikariPool-1 - Added connection org.mariadb.jdbc.Connection@5c6be847[0;39m
+[2024-06-05 17:41:30 [32mINFO [0;39m http-nio-8080-exec-1] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Start completed.[0;39m
+[2024-06-05 17:41:49 [31mERROR[0;39m http-nio-8080-exec-2] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet]] [36mServlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.RuntimeException: 이미 있는 아이디입니다!] with root cause[0;39m
+java.lang.RuntimeException: 이미 있는 아이디입니다!
+	at com.green.projectTest.user.UserService.postUser(UserService.java:26)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:354)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:392)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:720)
+	at com.green.projectTest.user.UserService$$SpringCGLIB$$0.postUser(<generated>)
+	at com.green.projectTest.user.UserController.postUser(UserController.java:32)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1736)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+[2024-06-05 17:42:45 [33mWARN [0;39m http-nio-8080-exec-3] [org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver] [36mResolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.green.projectTest.email.model.ErrorResult> com.green.projectTest.user.UserController.postUser(com.green.projectTest.user.model.UserPostReq): [Field error in object 'userPostReq' on field 'nickname': rejected value [김동a]; codes [Pattern.userPostReq.nickname,Pattern.nickname,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [userPostReq.nickname,nickname]; arguments []; default message [nickname],[Ljakarta.validation.constraints.Pattern$Flag;@6e8af7a8,^([가-힣]*|[a-zA-Z]*)$]; default message [한글과 영어를 혼합해서 쓰지말아주세요.]] ][0;39m
+[2024-06-05 17:44:29 [33mWARN [0;39m http-nio-8080-exec-4] [org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver] [36mResolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.green.projectTest.email.model.ErrorResult> com.green.projectTest.user.UserController.postUser(com.green.projectTest.user.model.UserPostReq): [Field error in object 'userPostReq' on field 'nickname': rejected value [김동a]; codes [Pattern.userPostReq.nickname,Pattern.nickname,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [userPostReq.nickname,nickname]; arguments []; default message [nickname],[Ljakarta.validation.constraints.Pattern$Flag;@6e8af7a8,^([가-힣]*|[a-zA-Z]*)$]; default message [한글과 영어를 혼합해서 쓰지말아주세요.]] ][0;39m
+[2024-06-05 17:44:30 [33mWARN [0;39m http-nio-8080-exec-5] [org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver] [36mResolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.green.projectTest.email.model.ErrorResult> com.green.projectTest.user.UserController.postUser(com.green.projectTest.user.model.UserPostReq): [Field error in object 'userPostReq' on field 'nickname': rejected value [김동a]; codes [Pattern.userPostReq.nickname,Pattern.nickname,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [userPostReq.nickname,nickname]; arguments []; default message [nickname],[Ljakarta.validation.constraints.Pattern$Flag;@6e8af7a8,^([가-힣]*|[a-zA-Z]*)$]; default message [한글과 영어를 혼합해서 쓰지말아주세요.]] ][0;39m
+[2024-06-05 17:44:31 [33mWARN [0;39m http-nio-8080-exec-6] [org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver] [36mResolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.green.projectTest.email.model.ErrorResult> com.green.projectTest.user.UserController.postUser(com.green.projectTest.user.model.UserPostReq): [Field error in object 'userPostReq' on field 'nickname': rejected value [김동a]; codes [Pattern.userPostReq.nickname,Pattern.nickname,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [userPostReq.nickname,nickname]; arguments []; default message [nickname],[Ljakarta.validation.constraints.Pattern$Flag;@6e8af7a8,^([가-힣]*|[a-zA-Z]*)$]; default message [한글과 영어를 혼합해서 쓰지말아주세요.]] ][0;39m
+[2024-06-05 17:44:49 [33mWARN [0;39m http-nio-8080-exec-7] [org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver] [36mResolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.green.projectTest.email.model.ErrorResult> com.green.projectTest.user.UserController.postUser(com.green.projectTest.user.model.UserPostReq): [Field error in object 'userPostReq' on field 'nickname': rejected value [김동a]; codes [Pattern.userPostReq.nickname,Pattern.nickname,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [userPostReq.nickname,nickname]; arguments []; default message [nickname],[Ljakarta.validation.constraints.Pattern$Flag;@6e8af7a8,^([가-힣]*|[a-zA-Z]*)$]; default message [한글과 영어를 혼합해서 쓰지말아주세요.]] ][0;39m
+[2024-06-05 17:44:54 [33mWARN [0;39m http-nio-8080-exec-8] [org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver] [36mResolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.green.projectTest.email.model.ErrorResult> com.green.projectTest.user.UserController.postUser(com.green.projectTest.user.model.UserPostReq): [Field error in object 'userPostReq' on field 'nickname': rejected value [김동혀ㅑㄴ]; codes [Pattern.userPostReq.nickname,Pattern.nickname,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [userPostReq.nickname,nickname]; arguments []; default message [nickname],[Ljakarta.validation.constraints.Pattern$Flag;@6e8af7a8,^([가-힣]*|[a-zA-Z]*)$]; default message [한글과 영어를 혼합해서 쓰지말아주세요.]] ][0;39m
+[2024-06-05 17:46:07 [32mINFO [0;39m SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Shutdown initiated...[0;39m
+[2024-06-05 17:46:07 [32mINFO [0;39m SpringApplicationShutdownHook] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Shutdown completed.[0;39m
+[2024-06-05 17:46:09 [32mINFO [0;39m background-preinit] [org.hibernate.validator.internal.util.Version] [36mHV000001: Hibernate Validator 8.0.1.Final[0;39m
+[2024-06-05 17:46:09 [32mINFO [0;39m restartedMain] [com.green.projectTest.BoardVer3Application] [36mStarting BoardVer3Application using Java 17.0.10 with PID 5928 (D:\Students\DongHyeon\2024-01\backEnd\boardtest\build\classes\java\main started by Administrator in D:\Students\DongHyeon\2024-01\backEnd\boardtest)[0;39m
+[2024-06-05 17:46:09 [32mINFO [0;39m restartedMain] [com.green.projectTest.BoardVer3Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2024-06-05 17:46:09 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable[0;39m
+[2024-06-05 17:46:09 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'[0;39m
+[2024-06-05 17:46:09 [32mINFO [0;39m restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [36mMultiple Spring Data modules found, entering strict repository configuration mode[0;39m
+[2024-06-05 17:46:09 [32mINFO [0;39m restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [36mBootstrapping Spring Data Redis repositories in DEFAULT mode.[0;39m
+[2024-06-05 17:46:09 [32mINFO [0;39m restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [36mFinished Spring Data repository scanning in 6 ms. Found 0 Redis repository interfaces.[0;39m
+[2024-06-05 17:46:10 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2024-06-05 17:46:10 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2024-06-05 17:46:10 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2024-06-05 17:46:10 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.20][0;39m
+[2024-06-05 17:46:10 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2024-06-05 17:46:10 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 979 ms[0;39m
+[2024-06-05 17:46:11 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
+[2024-06-05 17:46:11 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
+[2024-06-05 17:46:11 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
+[2024-06-05 17:46:11 [32mINFO [0;39m restartedMain] [com.green.projectTest.BoardVer3Application] [36mStarted BoardVer3Application in 2.047 seconds (process running for 2.411)[0;39m
+[2024-06-05 17:46:16 [32mINFO [0;39m http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring DispatcherServlet 'dispatcherServlet'[0;39m
+[2024-06-05 17:46:16 [32mINFO [0;39m http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mInitializing Servlet 'dispatcherServlet'[0;39m
+[2024-06-05 17:46:16 [32mINFO [0;39m http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mCompleted initialization in 1 ms[0;39m
+[2024-06-05 17:46:16 [32mINFO [0;39m http-nio-8080-exec-1] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Starting...[0;39m
+[2024-06-05 17:46:16 [32mINFO [0;39m http-nio-8080-exec-1] [com.zaxxer.hikari.pool.HikariPool] [36mHikariPool-1 - Added connection org.mariadb.jdbc.Connection@64ba2f17[0;39m
+[2024-06-05 17:46:16 [32mINFO [0;39m http-nio-8080-exec-1] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Start completed.[0;39m
+[2024-06-05 17:46:16 [31mERROR[0;39m http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/].[dispatcherServlet]] [36mServlet.service() for servlet [dispatcherServlet] in context with path [] threw exception [Request processing failed: java.lang.RuntimeException: 이미 있는 아이디입니다!] with root cause[0;39m
+java.lang.RuntimeException: 이미 있는 아이디입니다!
+	at com.green.projectTest.user.UserService.postUser(UserService.java:26)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.aop.support.AopUtils.invokeJoinpointUsingReflection(AopUtils.java:354)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.invokeJoinpoint(ReflectiveMethodInvocation.java:196)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:163)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768)
+	at org.springframework.transaction.interceptor.TransactionInterceptor$1.proceedWithInvocation(TransactionInterceptor.java:123)
+	at org.springframework.transaction.interceptor.TransactionAspectSupport.invokeWithinTransaction(TransactionAspectSupport.java:392)
+	at org.springframework.transaction.interceptor.TransactionInterceptor.invoke(TransactionInterceptor.java:119)
+	at org.springframework.aop.framework.ReflectiveMethodInvocation.proceed(ReflectiveMethodInvocation.java:184)
+	at org.springframework.aop.framework.CglibAopProxy$CglibMethodInvocation.proceed(CglibAopProxy.java:768)
+	at org.springframework.aop.framework.CglibAopProxy$DynamicAdvisedInterceptor.intercept(CglibAopProxy.java:720)
+	at com.green.projectTest.user.UserService$$SpringCGLIB$$0.postUser(<generated>)
+	at com.green.projectTest.user.UserController.postUser(UserController.java:32)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+	at java.base/jdk.internal.reflect.NativeMethodAccessorImpl.invoke(NativeMethodAccessorImpl.java:77)
+	at java.base/jdk.internal.reflect.DelegatingMethodAccessorImpl.invoke(DelegatingMethodAccessorImpl.java:43)
+	at java.base/java.lang.reflect.Method.invoke(Method.java:568)
+	at org.springframework.web.method.support.InvocableHandlerMethod.doInvoke(InvocableHandlerMethod.java:255)
+	at org.springframework.web.method.support.InvocableHandlerMethod.invokeForRequest(InvocableHandlerMethod.java:188)
+	at org.springframework.web.servlet.mvc.method.annotation.ServletInvocableHandlerMethod.invokeAndHandle(ServletInvocableHandlerMethod.java:118)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.invokeHandlerMethod(RequestMappingHandlerAdapter.java:926)
+	at org.springframework.web.servlet.mvc.method.annotation.RequestMappingHandlerAdapter.handleInternal(RequestMappingHandlerAdapter.java:831)
+	at org.springframework.web.servlet.mvc.method.AbstractHandlerMethodAdapter.handle(AbstractHandlerMethodAdapter.java:87)
+	at org.springframework.web.servlet.DispatcherServlet.doDispatch(DispatcherServlet.java:1089)
+	at org.springframework.web.servlet.DispatcherServlet.doService(DispatcherServlet.java:979)
+	at org.springframework.web.servlet.FrameworkServlet.processRequest(FrameworkServlet.java:1014)
+	at org.springframework.web.servlet.FrameworkServlet.doPost(FrameworkServlet.java:914)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:590)
+	at org.springframework.web.servlet.FrameworkServlet.service(FrameworkServlet.java:885)
+	at jakarta.servlet.http.HttpServlet.service(HttpServlet.java:658)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:206)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.apache.tomcat.websocket.server.WsFilter.doFilter(WsFilter.java:51)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.RequestContextFilter.doFilterInternal(RequestContextFilter.java:100)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.FormContentFilter.doFilterInternal(FormContentFilter.java:93)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.springframework.web.filter.CharacterEncodingFilter.doFilterInternal(CharacterEncodingFilter.java:201)
+	at org.springframework.web.filter.OncePerRequestFilter.doFilter(OncePerRequestFilter.java:116)
+	at org.apache.catalina.core.ApplicationFilterChain.internalDoFilter(ApplicationFilterChain.java:175)
+	at org.apache.catalina.core.ApplicationFilterChain.doFilter(ApplicationFilterChain.java:150)
+	at org.apache.catalina.core.StandardWrapperValve.invoke(StandardWrapperValve.java:167)
+	at org.apache.catalina.core.StandardContextValve.invoke(StandardContextValve.java:90)
+	at org.apache.catalina.authenticator.AuthenticatorBase.invoke(AuthenticatorBase.java:482)
+	at org.apache.catalina.core.StandardHostValve.invoke(StandardHostValve.java:115)
+	at org.apache.catalina.valves.ErrorReportValve.invoke(ErrorReportValve.java:93)
+	at org.apache.catalina.core.StandardEngineValve.invoke(StandardEngineValve.java:74)
+	at org.apache.catalina.connector.CoyoteAdapter.service(CoyoteAdapter.java:344)
+	at org.apache.coyote.http11.Http11Processor.service(Http11Processor.java:391)
+	at org.apache.coyote.AbstractProcessorLight.process(AbstractProcessorLight.java:63)
+	at org.apache.coyote.AbstractProtocol$ConnectionHandler.process(AbstractProtocol.java:896)
+	at org.apache.tomcat.util.net.NioEndpoint$SocketProcessor.doRun(NioEndpoint.java:1736)
+	at org.apache.tomcat.util.net.SocketProcessorBase.run(SocketProcessorBase.java:52)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor.runWorker(ThreadPoolExecutor.java:1191)
+	at org.apache.tomcat.util.threads.ThreadPoolExecutor$Worker.run(ThreadPoolExecutor.java:659)
+	at org.apache.tomcat.util.threads.TaskThread$WrappingRunnable.run(TaskThread.java:63)
+	at java.base/java.lang.Thread.run(Thread.java:840)
+[2024-06-05 17:47:45 [33mWARN [0;39m http-nio-8080-exec-5] [org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver] [36mResolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.green.projectTest.email.model.ErrorResult> com.green.projectTest.user.UserController.postUser(com.green.projectTest.user.model.UserPostReq): [Field error in object 'userPostReq' on field 'password': rejected value [abc1]; codes [Pattern.userPostReq.password,Pattern.password,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [userPostReq.password,password]; arguments []; default message [password],[Ljakarta.validation.constraints.Pattern$Flag;@5dff8ad8,(?=.*[0-9])(?=.*[a-zA-Z]).{8,16}]; default message [비밀번호는 영문과 숫자를 포함하여 8~16자리여야 합니다.]] ][0;39m
+[2024-06-05 17:48:33 [32mINFO [0;39m File Watcher] [org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] [36mRestarting due to 1 class path change (0 additions, 0 deletions, 1 modification)[0;39m
+[2024-06-05 17:48:33 [32mINFO [0;39m Thread-5] [org.apache.coyote.http11.Http11NioProtocol] [36mStopping ProtocolHandler ["http-nio-8080"][0;39m
+[2024-06-05 17:48:33 [32mINFO [0;39m Thread-5] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Shutdown initiated...[0;39m
+[2024-06-05 17:48:33 [32mINFO [0;39m Thread-5] [com.zaxxer.hikari.HikariDataSource] [36mHikariPool-1 - Shutdown completed.[0;39m
+[2024-06-05 17:48:33 [32mINFO [0;39m restartedMain] [com.green.projectTest.BoardVer3Application] [36mStarting BoardVer3Application using Java 17.0.10 with PID 5928 (D:\Students\DongHyeon\2024-01\backEnd\boardtest\build\classes\java\main started by Administrator in D:\Students\DongHyeon\2024-01\backEnd\boardtest)[0;39m
+[2024-06-05 17:48:33 [32mINFO [0;39m restartedMain] [com.green.projectTest.BoardVer3Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2024-06-05 17:48:33 [32mINFO [0;39m restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [36mMultiple Spring Data modules found, entering strict repository configuration mode[0;39m
+[2024-06-05 17:48:33 [32mINFO [0;39m restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [36mBootstrapping Spring Data Redis repositories in DEFAULT mode.[0;39m
+[2024-06-05 17:48:33 [32mINFO [0;39m restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [36mFinished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.[0;39m
+[2024-06-05 17:48:34 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2024-06-05 17:48:34 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2024-06-05 17:48:34 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2024-06-05 17:48:34 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.20][0;39m
+[2024-06-05 17:48:34 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2024-06-05 17:48:34 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 236 ms[0;39m
+[2024-06-05 17:48:34 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
+[2024-06-05 17:48:34 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
+[2024-06-05 17:48:34 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
+[2024-06-05 17:48:34 [32mINFO [0;39m restartedMain] [com.green.projectTest.BoardVer3Application] [36mStarted BoardVer3Application in 0.45 seconds (process running for 145.551)[0;39m
+[2024-06-05 17:48:34 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [36mCondition evaluation unchanged[0;39m
+[2024-06-05 17:49:36 [32mINFO [0;39m http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring DispatcherServlet 'dispatcherServlet'[0;39m
+[2024-06-05 17:49:36 [32mINFO [0;39m http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mInitializing Servlet 'dispatcherServlet'[0;39m
+[2024-06-05 17:49:36 [32mINFO [0;39m http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mCompleted initialization in 1 ms[0;39m
+[2024-06-05 17:49:36 [33mWARN [0;39m http-nio-8080-exec-1] [org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver] [36mResolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.green.projectTest.email.model.ErrorResult> com.green.projectTest.user.UserController.postUser(com.green.projectTest.user.model.UserPostReq): [Field error in object 'userPostReq' on field 'nickname': rejected value [김동asdasd현]; codes [Pattern.userPostReq.nickname,Pattern.nickname,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [userPostReq.nickname,nickname]; arguments []; default message [nickname],[Ljakarta.validation.constraints.Pattern$Flag;@5dff8ad8,^([가-힣]*|[a-zA-Z]*)$]; default message [한글과 영어를 혼합해서 쓰지말아주세요.]] ][0;39m
+[2024-06-05 17:50:55 [32mINFO [0;39m background-preinit] [org.hibernate.validator.internal.util.Version] [36mHV000001: Hibernate Validator 8.0.1.Final[0;39m
+[2024-06-05 17:50:55 [32mINFO [0;39m restartedMain] [com.green.projectTest.BoardVer3Application] [36mStarting BoardVer3Application using Java 17.0.10 with PID 6452 (D:\Students\DongHyeon\2024-01\backEnd\boardtest\build\classes\java\main started by Administrator in D:\Students\DongHyeon\2024-01\backEnd\boardtest)[0;39m
+[2024-06-05 17:50:55 [32mINFO [0;39m restartedMain] [com.green.projectTest.BoardVer3Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2024-06-05 17:50:55 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable[0;39m
+[2024-06-05 17:50:55 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'[0;39m
+[2024-06-05 17:50:55 [32mINFO [0;39m restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [36mMultiple Spring Data modules found, entering strict repository configuration mode[0;39m
+[2024-06-05 17:50:55 [32mINFO [0;39m restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [36mBootstrapping Spring Data Redis repositories in DEFAULT mode.[0;39m
+[2024-06-05 17:50:55 [32mINFO [0;39m restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [36mFinished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.[0;39m
+[2024-06-05 17:50:56 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2024-06-05 17:50:56 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2024-06-05 17:50:56 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2024-06-05 17:50:56 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.20][0;39m
+[2024-06-05 17:50:56 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2024-06-05 17:50:56 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 993 ms[0;39m
+[2024-06-05 17:50:56 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
+[2024-06-05 17:50:56 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
+[2024-06-05 17:50:57 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
+[2024-06-05 17:50:57 [32mINFO [0;39m restartedMain] [com.green.projectTest.BoardVer3Application] [36mStarted BoardVer3Application in 2.196 seconds (process running for 2.572)[0;39m
+[2024-06-05 17:50:57 [32mINFO [0;39m http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring DispatcherServlet 'dispatcherServlet'[0;39m
+[2024-06-05 17:50:57 [32mINFO [0;39m http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mInitializing Servlet 'dispatcherServlet'[0;39m
+[2024-06-05 17:50:57 [32mINFO [0;39m http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mCompleted initialization in 0 ms[0;39m
+[2024-06-05 17:50:57 [33mWARN [0;39m http-nio-8080-exec-1] [org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver] [36mResolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.green.projectTest.email.model.ErrorResult> com.green.projectTest.user.UserController.postUser(com.green.projectTest.user.model.UserPostReq): [Field error in object 'userPostReq' on field 'nickname': rejected value [김동asdasd현]; codes [Pattern.userPostReq.nickname,Pattern.nickname,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [userPostReq.nickname,nickname]; arguments []; default message [nickname],[Ljakarta.validation.constraints.Pattern$Flag;@547efc2a,^([가-힣]*|[a-zA-Z]*)$]; default message [한글과 영어를 혼합해서 쓰지말아주세요.]] ][0;39m
+[2024-06-05 17:51:14 [33mWARN [0;39m http-nio-8080-exec-2] [org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver] [36mResolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.green.projectTest.email.model.ErrorResult> com.green.projectTest.user.UserController.postUser(com.green.projectTest.user.model.UserPostReq): [Field error in object 'userPostReq' on field 'password': rejected value [ab1]; codes [Pattern.userPostReq.password,Pattern.password,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [userPostReq.password,password]; arguments []; default message [password],[Ljakarta.validation.constraints.Pattern$Flag;@547efc2a,(?=.*[0-9])(?=.*[a-zA-Z]).{8,16}]; default message [비밀번호는 영문과 숫자를 포함하여 8~16자리여야 합니다.]] ][0;39m
+[2024-06-05 17:54:43 [32mINFO [0;39m background-preinit] [org.hibernate.validator.internal.util.Version] [36mHV000001: Hibernate Validator 8.0.1.Final[0;39m
+[2024-06-05 17:54:43 [32mINFO [0;39m restartedMain] [com.green.projectTest.BoardVer3Application] [36mStarting BoardVer3Application using Java 17.0.10 with PID 8308 (D:\Students\DongHyeon\2024-01\backEnd\boardtest\build\classes\java\main started by Administrator in D:\Students\DongHyeon\2024-01\backEnd\boardtest)[0;39m
+[2024-06-05 17:54:43 [32mINFO [0;39m restartedMain] [com.green.projectTest.BoardVer3Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2024-06-05 17:54:43 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mDevtools property defaults active! Set 'spring.devtools.add-properties' to 'false' to disable[0;39m
+[2024-06-05 17:54:43 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.env.DevToolsPropertyDefaultsPostProcessor] [36mFor additional web related logging consider setting the 'logging.level.web' property to 'DEBUG'[0;39m
+[2024-06-05 17:54:44 [32mINFO [0;39m restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [36mMultiple Spring Data modules found, entering strict repository configuration mode[0;39m
+[2024-06-05 17:54:44 [32mINFO [0;39m restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [36mBootstrapping Spring Data Redis repositories in DEFAULT mode.[0;39m
+[2024-06-05 17:54:44 [32mINFO [0;39m restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [36mFinished Spring Data repository scanning in 5 ms. Found 0 Redis repository interfaces.[0;39m
+[2024-06-05 17:54:44 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2024-06-05 17:54:44 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2024-06-05 17:54:44 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2024-06-05 17:54:44 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.20][0;39m
+[2024-06-05 17:54:44 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2024-06-05 17:54:44 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 1063 ms[0;39m
+[2024-06-05 17:54:45 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
+[2024-06-05 17:54:45 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
+[2024-06-05 17:54:45 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
+[2024-06-05 17:54:45 [32mINFO [0;39m restartedMain] [com.green.projectTest.BoardVer3Application] [36mStarted BoardVer3Application in 2.183 seconds (process running for 2.557)[0;39m
+[2024-06-05 17:54:53 [32mINFO [0;39m http-nio-8080-exec-1] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring DispatcherServlet 'dispatcherServlet'[0;39m
+[2024-06-05 17:54:53 [32mINFO [0;39m http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mInitializing Servlet 'dispatcherServlet'[0;39m
+[2024-06-05 17:54:53 [32mINFO [0;39m http-nio-8080-exec-1] [org.springframework.web.servlet.DispatcherServlet] [36mCompleted initialization in 0 ms[0;39m
+[2024-06-05 17:54:53 [33mWARN [0;39m http-nio-8080-exec-1] [org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver] [36mResolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.green.projectTest.email.model.ErrorResult> com.green.projectTest.user.UserController.postUser(com.green.projectTest.user.model.UserPostReq) with 2 errors: [Field error in object 'userPostReq' on field 'nickname': rejected value [김asd동현]; codes [Pattern.userPostReq.nickname,Pattern.nickname,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [userPostReq.nickname,nickname]; arguments []; default message [nickname],[Ljakarta.validation.constraints.Pattern$Flag;@24369d1e,^([가-힣]*|[a-zA-Z]*)$]; default message [한글과 영어를 혼합해서 쓰지말아주세요.]] [Field error in object 'userPostReq' on field 'password': rejected value [ab1]; codes [Pattern.userPostReq.password,Pattern.password,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [userPostReq.password,password]; arguments []; default message [password],[Ljakarta.validation.constraints.Pattern$Flag;@24369d1e,(?=.*[0-9])(?=.*[a-zA-Z]).{8,16}]; default message [비밀번호는 영문과 숫자를 포함하여 8~16자리여야 합니다.]] ][0;39m
+[2024-06-05 17:54:58 [33mWARN [0;39m http-nio-8080-exec-4] [org.springframework.web.servlet.mvc.method.annotation.ExceptionHandlerExceptionResolver] [36mResolved [org.springframework.web.bind.MethodArgumentNotValidException: Validation failed for argument [0] in public org.springframework.http.ResponseEntity<com.green.projectTest.email.model.ErrorResult> com.green.projectTest.user.UserController.postUser(com.green.projectTest.user.model.UserPostReq): [Field error in object 'userPostReq' on field 'nickname': rejected value [김asd동현]; codes [Pattern.userPostReq.nickname,Pattern.nickname,Pattern.java.lang.String,Pattern]; arguments [org.springframework.context.support.DefaultMessageSourceResolvable: codes [userPostReq.nickname,nickname]; arguments []; default message [nickname],[Ljakarta.validation.constraints.Pattern$Flag;@24369d1e,^([가-힣]*|[a-zA-Z]*)$]; default message [한글과 영어를 혼합해서 쓰지말아주세요.]] ][0;39m
+[2024-06-05 18:00:15 [32mINFO [0;39m File Watcher] [org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] [36mRestarting due to 1 class path change (0 additions, 0 deletions, 1 modification)[0;39m
+[2024-06-05 18:00:15 [32mINFO [0;39m Thread-5] [org.apache.coyote.http11.Http11NioProtocol] [36mStopping ProtocolHandler ["http-nio-8080"][0;39m
+[2024-06-05 18:00:15 [32mINFO [0;39m restartedMain] [com.green.projectTest.BoardVer3Application] [36mStarting BoardVer3Application using Java 17.0.10 with PID 8308 (D:\Students\DongHyeon\2024-01\backEnd\boardtest\build\classes\java\main started by Administrator in D:\Students\DongHyeon\2024-01\backEnd\boardtest)[0;39m
+[2024-06-05 18:00:15 [32mINFO [0;39m restartedMain] [com.green.projectTest.BoardVer3Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2024-06-05 18:00:15 [32mINFO [0;39m restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [36mMultiple Spring Data modules found, entering strict repository configuration mode[0;39m
+[2024-06-05 18:00:15 [32mINFO [0;39m restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [36mBootstrapping Spring Data Redis repositories in DEFAULT mode.[0;39m
+[2024-06-05 18:00:15 [32mINFO [0;39m restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [36mFinished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.[0;39m
+[2024-06-05 18:00:15 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2024-06-05 18:00:15 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2024-06-05 18:00:15 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2024-06-05 18:00:15 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.20][0;39m
+[2024-06-05 18:00:15 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2024-06-05 18:00:15 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 233 ms[0;39m
+[2024-06-05 18:00:15 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
+[2024-06-05 18:00:15 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
+[2024-06-05 18:00:15 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
+[2024-06-05 18:00:15 [32mINFO [0;39m restartedMain] [com.green.projectTest.BoardVer3Application] [36mStarted BoardVer3Application in 0.418 seconds (process running for 333.058)[0;39m
+[2024-06-05 18:00:15 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [36mCondition evaluation unchanged[0;39m
+[2024-06-05 18:00:27 [32mINFO [0;39m File Watcher] [org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] [36mRestarting due to 1 class path change (0 additions, 0 deletions, 1 modification)[0;39m
+[2024-06-05 18:00:27 [32mINFO [0;39m Thread-7] [org.apache.coyote.http11.Http11NioProtocol] [36mStopping ProtocolHandler ["http-nio-8080"][0;39m
+[2024-06-05 18:00:27 [32mINFO [0;39m restartedMain] [com.green.projectTest.BoardVer3Application] [36mStarting BoardVer3Application using Java 17.0.10 with PID 8308 (D:\Students\DongHyeon\2024-01\backEnd\boardtest\build\classes\java\main started by Administrator in D:\Students\DongHyeon\2024-01\backEnd\boardtest)[0;39m
+[2024-06-05 18:00:27 [32mINFO [0;39m restartedMain] [com.green.projectTest.BoardVer3Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2024-06-05 18:00:27 [32mINFO [0;39m restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [36mMultiple Spring Data modules found, entering strict repository configuration mode[0;39m
+[2024-06-05 18:00:27 [32mINFO [0;39m restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [36mBootstrapping Spring Data Redis repositories in DEFAULT mode.[0;39m
+[2024-06-05 18:00:27 [32mINFO [0;39m restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [36mFinished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.[0;39m
+[2024-06-05 18:00:28 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2024-06-05 18:00:28 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2024-06-05 18:00:28 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2024-06-05 18:00:28 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.20][0;39m
+[2024-06-05 18:00:28 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2024-06-05 18:00:28 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 207 ms[0;39m
+[2024-06-05 18:00:28 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
+[2024-06-05 18:00:28 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
+[2024-06-05 18:00:28 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
+[2024-06-05 18:00:28 [32mINFO [0;39m restartedMain] [com.green.projectTest.BoardVer3Application] [36mStarted BoardVer3Application in 0.379 seconds (process running for 345.481)[0;39m
+[2024-06-05 18:00:28 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [36mCondition evaluation unchanged[0;39m
+[2024-06-05 18:00:45 [32mINFO [0;39m File Watcher] [org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] [36mRestarting due to 1 class path change (0 additions, 0 deletions, 1 modification)[0;39m
+[2024-06-05 18:00:45 [32mINFO [0;39m Thread-11] [org.apache.coyote.http11.Http11NioProtocol] [36mStopping ProtocolHandler ["http-nio-8080"][0;39m
+[2024-06-05 18:00:45 [32mINFO [0;39m restartedMain] [com.green.projectTest.BoardVer3Application] [36mStarting BoardVer3Application using Java 17.0.10 with PID 8308 (D:\Students\DongHyeon\2024-01\backEnd\boardtest\build\classes\java\main started by Administrator in D:\Students\DongHyeon\2024-01\backEnd\boardtest)[0;39m
+[2024-06-05 18:00:45 [32mINFO [0;39m restartedMain] [com.green.projectTest.BoardVer3Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2024-06-05 18:00:45 [32mINFO [0;39m restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [36mMultiple Spring Data modules found, entering strict repository configuration mode[0;39m
+[2024-06-05 18:00:45 [32mINFO [0;39m restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [36mBootstrapping Spring Data Redis repositories in DEFAULT mode.[0;39m
+[2024-06-05 18:00:45 [32mINFO [0;39m restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [36mFinished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.[0;39m
+[2024-06-05 18:00:45 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2024-06-05 18:00:45 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2024-06-05 18:00:45 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2024-06-05 18:00:45 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.20][0;39m
+[2024-06-05 18:00:45 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2024-06-05 18:00:45 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 201 ms[0;39m
+[2024-06-05 18:00:45 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
+[2024-06-05 18:00:45 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
+[2024-06-05 18:00:45 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
+[2024-06-05 18:00:45 [32mINFO [0;39m restartedMain] [com.green.projectTest.BoardVer3Application] [36mStarted BoardVer3Application in 0.374 seconds (process running for 363.021)[0;39m
+[2024-06-05 18:00:45 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [36mCondition evaluation unchanged[0;39m
+[2024-06-05 18:01:12 [32mINFO [0;39m File Watcher] [org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] [36mRestarting due to 1 class path change (0 additions, 0 deletions, 1 modification)[0;39m
+[2024-06-05 18:01:12 [32mINFO [0;39m Thread-15] [org.apache.coyote.http11.Http11NioProtocol] [36mStopping ProtocolHandler ["http-nio-8080"][0;39m
+[2024-06-05 18:01:12 [32mINFO [0;39m restartedMain] [com.green.projectTest.BoardVer3Application] [36mStarting BoardVer3Application using Java 17.0.10 with PID 8308 (D:\Students\DongHyeon\2024-01\backEnd\boardtest\build\classes\java\main started by Administrator in D:\Students\DongHyeon\2024-01\backEnd\boardtest)[0;39m
+[2024-06-05 18:01:12 [32mINFO [0;39m restartedMain] [com.green.projectTest.BoardVer3Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2024-06-05 18:01:12 [32mINFO [0;39m restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [36mMultiple Spring Data modules found, entering strict repository configuration mode[0;39m
+[2024-06-05 18:01:12 [32mINFO [0;39m restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [36mBootstrapping Spring Data Redis repositories in DEFAULT mode.[0;39m
+[2024-06-05 18:01:12 [32mINFO [0;39m restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [36mFinished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.[0;39m
+[2024-06-05 18:01:12 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2024-06-05 18:01:12 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2024-06-05 18:01:12 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2024-06-05 18:01:12 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.20][0;39m
+[2024-06-05 18:01:12 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2024-06-05 18:01:12 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 197 ms[0;39m
+[2024-06-05 18:01:12 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
+[2024-06-05 18:01:12 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
+[2024-06-05 18:01:12 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
+[2024-06-05 18:01:12 [32mINFO [0;39m restartedMain] [com.green.projectTest.BoardVer3Application] [36mStarted BoardVer3Application in 0.362 seconds (process running for 389.777)[0;39m
+[2024-06-05 18:01:12 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [36mCondition evaluation unchanged[0;39m
+[2024-06-05 18:01:20 [32mINFO [0;39m File Watcher] [org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] [36mRestarting due to 1 class path change (0 additions, 0 deletions, 1 modification)[0;39m
+[2024-06-05 18:01:20 [32mINFO [0;39m Thread-19] [org.apache.coyote.http11.Http11NioProtocol] [36mStopping ProtocolHandler ["http-nio-8080"][0;39m
+[2024-06-05 18:01:20 [32mINFO [0;39m restartedMain] [com.green.projectTest.BoardVer3Application] [36mStarting BoardVer3Application using Java 17.0.10 with PID 8308 (D:\Students\DongHyeon\2024-01\backEnd\boardtest\build\classes\java\main started by Administrator in D:\Students\DongHyeon\2024-01\backEnd\boardtest)[0;39m
+[2024-06-05 18:01:20 [32mINFO [0;39m restartedMain] [com.green.projectTest.BoardVer3Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2024-06-05 18:01:20 [32mINFO [0;39m restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [36mMultiple Spring Data modules found, entering strict repository configuration mode[0;39m
+[2024-06-05 18:01:20 [32mINFO [0;39m restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [36mBootstrapping Spring Data Redis repositories in DEFAULT mode.[0;39m
+[2024-06-05 18:01:20 [32mINFO [0;39m restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [36mFinished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.[0;39m
+[2024-06-05 18:01:20 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2024-06-05 18:01:20 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2024-06-05 18:01:20 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2024-06-05 18:01:20 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.20][0;39m
+[2024-06-05 18:01:20 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2024-06-05 18:01:20 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 197 ms[0;39m
+[2024-06-05 18:01:20 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
+[2024-06-05 18:01:20 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
+[2024-06-05 18:01:20 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
+[2024-06-05 18:01:20 [32mINFO [0;39m restartedMain] [com.green.projectTest.BoardVer3Application] [36mStarted BoardVer3Application in 0.362 seconds (process running for 398.105)[0;39m
+[2024-06-05 18:01:20 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [36mCondition evaluation unchanged[0;39m
+[2024-06-05 18:01:34 [32mINFO [0;39m File Watcher] [org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] [36mRestarting due to 1 class path change (0 additions, 0 deletions, 1 modification)[0;39m
+[2024-06-05 18:01:34 [32mINFO [0;39m Thread-23] [org.apache.coyote.http11.Http11NioProtocol] [36mStopping ProtocolHandler ["http-nio-8080"][0;39m
+[2024-06-05 18:01:34 [32mINFO [0;39m restartedMain] [com.green.projectTest.BoardVer3Application] [36mStarting BoardVer3Application using Java 17.0.10 with PID 8308 (D:\Students\DongHyeon\2024-01\backEnd\boardtest\build\classes\java\main started by Administrator in D:\Students\DongHyeon\2024-01\backEnd\boardtest)[0;39m
+[2024-06-05 18:01:34 [32mINFO [0;39m restartedMain] [com.green.projectTest.BoardVer3Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2024-06-05 18:01:34 [32mINFO [0;39m restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [36mMultiple Spring Data modules found, entering strict repository configuration mode[0;39m
+[2024-06-05 18:01:34 [32mINFO [0;39m restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [36mBootstrapping Spring Data Redis repositories in DEFAULT mode.[0;39m
+[2024-06-05 18:01:34 [32mINFO [0;39m restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [36mFinished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.[0;39m
+[2024-06-05 18:01:34 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2024-06-05 18:01:34 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2024-06-05 18:01:34 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2024-06-05 18:01:34 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.20][0;39m
+[2024-06-05 18:01:34 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2024-06-05 18:01:34 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 195 ms[0;39m
+[2024-06-05 18:01:34 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
+[2024-06-05 18:01:34 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
+[2024-06-05 18:01:34 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
+[2024-06-05 18:01:34 [32mINFO [0;39m restartedMain] [com.green.projectTest.BoardVer3Application] [36mStarted BoardVer3Application in 0.367 seconds (process running for 412.17)[0;39m
+[2024-06-05 18:01:34 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [36mCondition evaluation unchanged[0;39m
+[2024-06-05 18:01:45 [32mINFO [0;39m File Watcher] [org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] [36mRestarting due to 1 class path change (0 additions, 0 deletions, 1 modification)[0;39m
+[2024-06-05 18:01:45 [32mINFO [0;39m Thread-27] [org.apache.coyote.http11.Http11NioProtocol] [36mStopping ProtocolHandler ["http-nio-8080"][0;39m
+[2024-06-05 18:01:45 [32mINFO [0;39m restartedMain] [com.green.projectTest.BoardVer3Application] [36mStarting BoardVer3Application using Java 17.0.10 with PID 8308 (D:\Students\DongHyeon\2024-01\backEnd\boardtest\build\classes\java\main started by Administrator in D:\Students\DongHyeon\2024-01\backEnd\boardtest)[0;39m
+[2024-06-05 18:01:45 [32mINFO [0;39m restartedMain] [com.green.projectTest.BoardVer3Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2024-06-05 18:01:46 [32mINFO [0;39m restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [36mMultiple Spring Data modules found, entering strict repository configuration mode[0;39m
+[2024-06-05 18:01:46 [32mINFO [0;39m restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [36mBootstrapping Spring Data Redis repositories in DEFAULT mode.[0;39m
+[2024-06-05 18:01:46 [32mINFO [0;39m restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [36mFinished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.[0;39m
+[2024-06-05 18:01:46 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2024-06-05 18:01:46 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2024-06-05 18:01:46 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2024-06-05 18:01:46 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.20][0;39m
+[2024-06-05 18:01:46 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2024-06-05 18:01:46 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 200 ms[0;39m
+[2024-06-05 18:01:46 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
+[2024-06-05 18:01:46 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
+[2024-06-05 18:01:46 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
+[2024-06-05 18:01:46 [32mINFO [0;39m restartedMain] [com.green.projectTest.BoardVer3Application] [36mStarted BoardVer3Application in 0.366 seconds (process running for 423.603)[0;39m
+[2024-06-05 18:01:46 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [36mCondition evaluation unchanged[0;39m
+[2024-06-05 18:01:56 [32mINFO [0;39m File Watcher] [org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] [36mRestarting due to 1 class path change (0 additions, 0 deletions, 1 modification)[0;39m
+[2024-06-05 18:01:56 [32mINFO [0;39m Thread-31] [org.apache.coyote.http11.Http11NioProtocol] [36mStopping ProtocolHandler ["http-nio-8080"][0;39m
+[2024-06-05 18:01:56 [32mINFO [0;39m restartedMain] [com.green.projectTest.BoardVer3Application] [36mStarting BoardVer3Application using Java 17.0.10 with PID 8308 (D:\Students\DongHyeon\2024-01\backEnd\boardtest\build\classes\java\main started by Administrator in D:\Students\DongHyeon\2024-01\backEnd\boardtest)[0;39m
+[2024-06-05 18:01:56 [32mINFO [0;39m restartedMain] [com.green.projectTest.BoardVer3Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2024-06-05 18:01:57 [32mINFO [0;39m restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [36mMultiple Spring Data modules found, entering strict repository configuration mode[0;39m
+[2024-06-05 18:01:57 [32mINFO [0;39m restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [36mBootstrapping Spring Data Redis repositories in DEFAULT mode.[0;39m
+[2024-06-05 18:01:57 [32mINFO [0;39m restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [36mFinished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.[0;39m
+[2024-06-05 18:01:57 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2024-06-05 18:01:57 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2024-06-05 18:01:57 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2024-06-05 18:01:57 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.20][0;39m
+[2024-06-05 18:01:57 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2024-06-05 18:01:57 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 198 ms[0;39m
+[2024-06-05 18:01:57 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
+[2024-06-05 18:01:57 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
+[2024-06-05 18:01:57 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
+[2024-06-05 18:01:57 [32mINFO [0;39m restartedMain] [com.green.projectTest.BoardVer3Application] [36mStarted BoardVer3Application in 0.36 seconds (process running for 434.609)[0;39m
+[2024-06-05 18:01:57 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [36mCondition evaluation unchanged[0;39m
+[2024-06-05 18:02:05 [32mINFO [0;39m File Watcher] [org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] [36mRestarting due to 1 class path change (0 additions, 0 deletions, 1 modification)[0;39m
+[2024-06-05 18:02:05 [32mINFO [0;39m Thread-35] [org.apache.coyote.http11.Http11NioProtocol] [36mStopping ProtocolHandler ["http-nio-8080"][0;39m
+[2024-06-05 18:02:05 [32mINFO [0;39m restartedMain] [com.green.projectTest.BoardVer3Application] [36mStarting BoardVer3Application using Java 17.0.10 with PID 8308 (D:\Students\DongHyeon\2024-01\backEnd\boardtest\build\classes\java\main started by Administrator in D:\Students\DongHyeon\2024-01\backEnd\boardtest)[0;39m
+[2024-06-05 18:02:05 [32mINFO [0;39m restartedMain] [com.green.projectTest.BoardVer3Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2024-06-05 18:02:05 [32mINFO [0;39m restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [36mMultiple Spring Data modules found, entering strict repository configuration mode[0;39m
+[2024-06-05 18:02:05 [32mINFO [0;39m restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [36mBootstrapping Spring Data Redis repositories in DEFAULT mode.[0;39m
+[2024-06-05 18:02:05 [32mINFO [0;39m restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [36mFinished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.[0;39m
+[2024-06-05 18:02:05 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2024-06-05 18:02:05 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2024-06-05 18:02:05 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2024-06-05 18:02:05 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.20][0;39m
+[2024-06-05 18:02:05 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2024-06-05 18:02:05 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 196 ms[0;39m
+[2024-06-05 18:02:05 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
+[2024-06-05 18:02:05 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
+[2024-06-05 18:02:05 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
+[2024-06-05 18:02:05 [32mINFO [0;39m restartedMain] [com.green.projectTest.BoardVer3Application] [36mStarted BoardVer3Application in 0.36 seconds (process running for 442.99)[0;39m
+[2024-06-05 18:02:05 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [36mCondition evaluation unchanged[0;39m
+[2024-06-05 18:02:11 [32mINFO [0;39m File Watcher] [org.springframework.boot.devtools.autoconfigure.LocalDevToolsAutoConfiguration$RestartingClassPathChangeChangedEventListener] [36mRestarting due to 1 class path change (0 additions, 0 deletions, 1 modification)[0;39m
+[2024-06-05 18:02:11 [32mINFO [0;39m Thread-39] [org.apache.coyote.http11.Http11NioProtocol] [36mStopping ProtocolHandler ["http-nio-8080"][0;39m
+[2024-06-05 18:02:11 [32mINFO [0;39m restartedMain] [com.green.projectTest.BoardVer3Application] [36mStarting BoardVer3Application using Java 17.0.10 with PID 8308 (D:\Students\DongHyeon\2024-01\backEnd\boardtest\build\classes\java\main started by Administrator in D:\Students\DongHyeon\2024-01\backEnd\boardtest)[0;39m
+[2024-06-05 18:02:11 [32mINFO [0;39m restartedMain] [com.green.projectTest.BoardVer3Application] [36mNo active profile set, falling back to 1 default profile: "default"[0;39m
+[2024-06-05 18:02:11 [32mINFO [0;39m restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [36mMultiple Spring Data modules found, entering strict repository configuration mode[0;39m
+[2024-06-05 18:02:11 [32mINFO [0;39m restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [36mBootstrapping Spring Data Redis repositories in DEFAULT mode.[0;39m
+[2024-06-05 18:02:11 [32mINFO [0;39m restartedMain] [org.springframework.data.repository.config.RepositoryConfigurationDelegate] [36mFinished Spring Data repository scanning in 2 ms. Found 0 Redis repository interfaces.[0;39m
+[2024-06-05 18:02:11 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat initialized with port 8080 (http)[0;39m
+[2024-06-05 18:02:11 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mInitializing ProtocolHandler ["http-nio-8080"][0;39m
+[2024-06-05 18:02:11 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardService] [36mStarting service [Tomcat][0;39m
+[2024-06-05 18:02:11 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.StandardEngine] [36mStarting Servlet engine: [Apache Tomcat/10.1.20][0;39m
+[2024-06-05 18:02:11 [32mINFO [0;39m restartedMain] [org.apache.catalina.core.ContainerBase.[Tomcat].[localhost].[/]] [36mInitializing Spring embedded WebApplicationContext[0;39m
+[2024-06-05 18:02:11 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.servlet.context.ServletWebServerApplicationContext] [36mRoot WebApplicationContext: initialization completed in 190 ms[0;39m
+[2024-06-05 18:02:11 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.OptionalLiveReloadServer] [36mLiveReload server is running on port 35729[0;39m
+[2024-06-05 18:02:11 [32mINFO [0;39m restartedMain] [org.apache.coyote.http11.Http11NioProtocol] [36mStarting ProtocolHandler ["http-nio-8080"][0;39m
+[2024-06-05 18:02:11 [32mINFO [0;39m restartedMain] [org.springframework.boot.web.embedded.tomcat.TomcatWebServer] [36mTomcat started on port 8080 (http) with context path ''[0;39m
+[2024-06-05 18:02:11 [32mINFO [0;39m restartedMain] [com.green.projectTest.BoardVer3Application] [36mStarted BoardVer3Application in 0.349 seconds (process running for 448.901)[0;39m
+[2024-06-05 18:02:11 [32mINFO [0;39m restartedMain] [org.springframework.boot.devtools.autoconfigure.ConditionEvaluationDeltaLoggingListener] [36mCondition evaluation unchanged[0;39m

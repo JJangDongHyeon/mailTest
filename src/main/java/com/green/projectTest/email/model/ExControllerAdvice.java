@@ -14,28 +14,28 @@ import javax.mail.internet.AddressException;
 @Slf4j
 @RestControllerAdvice
 public class ExControllerAdvice {
-    @ResponseStatus(HttpStatus.BAD_REQUEST)
-    @ExceptionHandler(NullPointerException.class)
-    public ResponseEntity<ErrorResult> testing(NullPointerException e){
-        ErrorResult errorResult=new ErrorResult("INVALID_CHECK",e.getMessage());
-        return new ResponseEntity<>(errorResult,HttpStatus.BAD_REQUEST);
-    }
-
-    @ResponseStatus(HttpStatus.BAD_REQUEST)
-    @ExceptionHandler(AddressException.class)
-    public ResponseEntity<ErrorResult> handleAddressException(AddressException e) {
-        String errorMessage = "이메일을 다시 적어주세요";
-        ErrorResult errorResult = new ErrorResult("INVALID_ADDRESS", errorMessage);
-        return new ResponseEntity<>(errorResult, HttpStatus.BAD_REQUEST);
-    }
-
-    @ResponseStatus(HttpStatus.BAD_REQUEST)
-    @ExceptionHandler(MethodArgumentNotValidException.class)
-    public ResponseEntity<ErrorResult> validException(MethodArgumentNotValidException e) {
+//    @ResponseStatus(HttpStatus.BAD_REQUEST)
+//    @ExceptionHandler(NullPointerException.class)
+//    public ResponseEntity<ErrorResult> testing(NullPointerException e){
+//        ErrorResult errorResult=new ErrorResult("INVALID_CHECK",e.getMessage());
+//        return new ResponseEntity<>(errorResult,HttpStatus.BAD_REQUEST);
+//    }
+//
+//    @ResponseStatus(HttpStatus.BAD_REQUEST)
+//    @ExceptionHandler(AddressException.class)
+//    public ResponseEntity<ErrorResult> handleAddressException(AddressException e) {
 //        String errorMessage = "이메일을 다시 적어주세요";
-        ErrorResult errorResult = new ErrorResult("INVALID_VALIDATION", "유효성 검사를 해주세요");
-        return new ResponseEntity<>(errorResult, HttpStatus.BAD_REQUEST);
-    }
+//        ErrorResult errorResult = new ErrorResult("INVALID_ADDRESS", errorMessage);
+//        return new ResponseEntity<>(errorResult, HttpStatus.BAD_REQUEST);
+//    }
+//
+//    @ResponseStatus(HttpStatus.BAD_REQUEST)
+//    @ExceptionHandler(MethodArgumentNotValidException.class)
+//    public ResponseEntity<ErrorResult> validException(MethodArgumentNotValidException e) {
+////        String errorMessage = "이메일을 다시 적어주세요";
+//        ErrorResult errorResult = new ErrorResult("INVALID_VALIDATION", "유효성 검사를 해주세요");
+//        return new ResponseEntity<>(errorResult, HttpStatus.BAD_REQUEST);
+//    }
 
 
 
